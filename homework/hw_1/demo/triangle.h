@@ -20,7 +20,7 @@ struct triangle {
 void In(triangle &t, ifstream &ifst);
 
 // Случайный ввод параметров треугольника
-void InRnd(triangle &е);
+void InRnd(triangle &e);
 
 // Вывод параметров треугольника в форматируемый поток
 void Out(triangle &t, ofstream &ofst);
