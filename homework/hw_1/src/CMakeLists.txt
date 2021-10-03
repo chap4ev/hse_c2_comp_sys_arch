@@ -13,9 +13,13 @@ set(BINARY_DIR "${CMAKE_BINARY_DIR}")
 set(SOURCE_FILES
     # Headers
     rnd.h
+    cycleEncryption.h
+    encryptedText.h
     container.h
 
     # Sources
+    cycleEncryption.cpp
+    encryptedText.cpp
     container.cpp
     main.cpp
 )
