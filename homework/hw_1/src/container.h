@@ -13,7 +13,7 @@
 struct container {
     enum {max_len = 10000}; // максимальная длина
     int len; // текущая длина
-    shape *cont[max_len];
+    encryptedText *cont[max_len];
 };
 
 // Инициализация контейнера
@@ -30,8 +30,5 @@ void InRnd(container &c, int size);
 
 // Вывод содержимого контейнера в указанный поток
 void Out(container &c, ofstream &ofst);
-
-// Вычисление суммы периметров всех фигур в контейнере
-double PerimeterSum(container &c);
 
 #endif

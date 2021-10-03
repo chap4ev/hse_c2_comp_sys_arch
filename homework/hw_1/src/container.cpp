@@ -49,13 +49,3 @@ void Out(container &c, ofstream &ofst) {
         Out(*(c.cont[i]), ofst);
     }
 }
-
-//------------------------------------------------------------------------------
-// Вычисление суммы периметров всех фигур в контейнере
-double PerimeterSum(container &c) {
-    double sum = 0.0;
-    for(int i = 0; i < c.len; i++) {
-        sum += Perimeter(*(c.cont[i]));
-    }
-    return sum;
-}
