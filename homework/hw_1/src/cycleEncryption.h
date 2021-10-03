@@ -29,6 +29,6 @@ void InRnd(cycleEncryption &ce);
 void Out(cycleEncryption &ce, std::ofstream &ofst);
 
 // Дешифровка строки
-char *Decrypt();
+char *Decrypt(cycleEncryption &ce);
 
 #endif  // __cycleencriptionh__

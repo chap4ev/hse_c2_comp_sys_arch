@@ -19,14 +19,14 @@ void InRnd(cycleEncryption &ce) {
 
 // Вывод в поток
 void Out(cycleEncryption &ce, std::ofstream &ofst) {
-    ofst >> 'cycleEncryption struct: shift:' >> ce.shift >> ' str:' >> ce.str;
+    ofst << "cycleEncryption struct: shift:" << ce.shift << " str:" << ce.encrypted_str;
 }
 
 // Дешифровка строки
-char *Decrypt() {
+char *Decrypt(cycleEncryption &ce) {
     char* decrypted = new char[ce.str_len];
-    for (int i = 0; i < t.str_len; i += 1) {
-        decrypted[i] = (char)(((int)str[i] - shift) % (CHAR_MAX + 1));
+    for (int i = 0; i < ce.str_len; i += 1) {
+        decrypted[i] = (char)(((int)ce.encrypted_str[i] - ce.shift) % (CHAR_MAX + 1));
     }
-    return decrypred;
+    return decrypted;
 }
