@@ -17,7 +17,7 @@ struct encryptedText {
     // длина строки
     int str_len;
     // текст
-    char[] *str;
+    char *str;
 
     // значения ключей для каждого из видов шифрования
     enum encryptionKey {CHARREPLACE, CYCLE, INTREPLACE};

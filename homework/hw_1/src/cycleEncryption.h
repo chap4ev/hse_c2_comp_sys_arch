@@ -2,32 +2,33 @@
 #define __cycleencriptionh__
 
 //------------------------------------------------------------------------------
-// oop.h - содержит описание функционального ЯП
+// cycleEncryption.h - содержит описание структуры cycleEncryption
+// Шифрование циклическим сдвигом кода каждого символа на n
 //------------------------------------------------------------------------------
 
 #include <fstream>
-#include "constants.h"
+#include <limits.h>
 
 //------------------------------------------------------------------------------
-// объектно-ориентированный ЯП
-struct oop {
+struct cycleEncryption {
     // сдвиг
     int shift;
     // длина строки
     int str_len;
     // текст
-    char[] *encrypted_str;
+    char *encrypted_str;
 };
 
-// Ввод параметров объектно-ориентированного ЯП из файла
-void In(oop &o, std::ifstream &ifst);
+// Ввод из потока
+void In(cycleEncryption &ce, std::ifstream &ifst);
 
-// Случайный ввод параметров объектно-ориентированного ЯП
-void InRnd(oop &o);
+// Случайный ввод
+void InRnd(cycleEncryption &ce);
 
-// Вывод параметров объектно-ориентированного ЯП в форматируемый поток
-void Out(oop &o, std::ofstream &ofst);
+// Вывод в поток
+void Out(cycleEncryption &ce, std::ofstream &ofst);
 
-char[] *Decrypt();
+// Дешифровка строки
+char *Decrypt();
 
 #endif  // __cycleencriptionh__
