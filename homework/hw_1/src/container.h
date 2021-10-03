@@ -6,7 +6,8 @@
 // представляющий простейший контейнер
 //------------------------------------------------------------------------------
 
-#include "shape.h"
+#include <fstream>
+#include "encryptedText.h"
 
 //------------------------------------------------------------------------------
 // Простейший контейнер на основе одномерного массива
@@ -23,12 +24,12 @@ void Init(container &c);
 void Clear(container &c);
 
 // Ввод содержимого контейнера из указанного потока
-void In(container &c, ifstream &ifst);
+void In(container &c, std::ifstream &ifst);
 
 // Случайный ввод содержимого контейнера
 void InRnd(container &c, int size);
 
 // Вывод содержимого контейнера в указанный поток
-void Out(container &c, ofstream &ofst);
+void Out(container &c, std::ofstream &ofst);
 
 #endif

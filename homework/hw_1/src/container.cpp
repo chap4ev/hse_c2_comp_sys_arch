@@ -14,7 +14,7 @@ void Init(container &c) {
 // Очистка контейнера от элементов (освобождение памяти)
 void Clear(container &c) {
     for(int i = 0; i < c.len; i++) {
-        Clear(c.cont[i]);
+        Clear(*(c.cont[i]));
         delete c.cont[i];
     }
     c.len = 0;
@@ -22,7 +22,7 @@ void Clear(container &c) {
 
 //------------------------------------------------------------------------------
 // Ввод содержимого контейнера из указанного потока
-void In(container &c, ifstream &ifst) {
+void In(container &c, std::ifstream &ifst) {
     while(!ifst.eof()) {
         if((c.cont[c.len] = In(ifst)) != 0) {
             c.len++;
@@ -42,8 +42,8 @@ void InRnd(container &c, int size) {
 
 //------------------------------------------------------------------------------
 // Вывод содержимого контейнера в указанный поток
-void Out(container &c, ofstream &ofst) {
-    ofst << "Container contains " << c.len << " elements." << endl;
+void Out(container &c, std::ofstream &ofst) {
+    ofst << "Container contains " << c.len << " elements." << std::endl;
     for(int i = 0; i < c.len; i++) {
         ofst << i << ": ";
         Out(*(c.cont[i]), ofst);

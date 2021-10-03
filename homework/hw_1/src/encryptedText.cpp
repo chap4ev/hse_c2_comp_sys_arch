@@ -9,20 +9,20 @@
 // Деструктор
 void Clear(encryptedText &t) {
     switch (t.e_key) {
-    case language::CHARREPLACE:
+    case encryptedText::CHARREPLACE:
         delete [] t.char_replace.encrypted_str;
         t.char_replace.str_len = 0;
-        delete [] str;
+        delete [] t.str;
         break;
-    case language::CYCLE:
+    case encryptedText::CYCLE:
         delete [] t.cycle.encrypted_str;
         t.cycle.str_len = 0;
-        delete [] str;
+        delete [] t.str;
         break;
-    case language::INTREPLACE:
+    case encryptedText::INTREPLACE:
         delete [] t.int_replace.encrypted_str;
         t.int_replace.str_len = 0;
-        delete [] str;
+        delete [] t.str;
         break;
     }
     t.str_len = 0;
@@ -34,27 +34,27 @@ void Clear(encryptedText &t) {
 encryptedText* In(std::ifstream &ifst) {
     encryptedText *text;
     char type[20];
-    ifst >> type >> text.str_len;
+    ifst >> type >> text->str_len;
     if (!strcmp(type, "charReplaceEncryption")) {
         text = new encryptedText;
         text->e_key = encryptedText::CHARREPLACE;
-        (text->char_replace).str_len = text.str_len;
+        (text->char_replace).str_len = text->str_len;
         In(text->char_replace, ifst);
-        text->str = (text->char_replace).Decrypt();
+        text->str = Decrypt(text->char_replace);
 
     } else if (!strcmp(type, "cycleEncryption")) {
         text = new encryptedText;
         text->e_key = encryptedText::CYCLE;
-        (text->cycle).str_len = text.str_len;
+        (text->cycle).str_len = text->str_len;
         In(text->cycle, ifst);
-        text->str = (text->cycle).Decrypt();
+        text->str = Decrypt(text->cycle);
 
     } else if (!strcmp(type, "intReplaceEncryption")) {
         text = new encryptedText;
         text->e_key = encryptedText::INTREPLACE;
-        (text->int_replace).str_len = text.str_len;
+        (text->int_replace).str_len = text->str_len;
         In(text->int_replace, ifst);
-        text->str = (text->int_replace).Decrypt();
+        text->str = Decrypt(text->int_replace);
 
     } else {
         std::cout << "ERROR: Wrong type " << type;
@@ -70,15 +70,15 @@ encryptedText *InRnd() {
     if (type == 0) {
         text = new encryptedText;
         text->e_key = encryptedText::CHARREPLACE;
-        InRnd(text->p);
+        InRnd(text->char_replace);
     } else if (type == 2) {
         text = new encryptedText;
         text->e_key = encryptedText::CYCLE;
-        InRnd(text->f);
+        InRnd(text->cycle);
     } else {
         text = new encryptedText;
         text->e_key = encryptedText::INTREPLACE;
-        InRnd(text->o);
+        InRnd(text->int_replace);
     }
     return text;
 }
@@ -86,17 +86,19 @@ encryptedText *InRnd() {
 //------------------------------------------------------------------------------
 // Вывод в поток
 void Out(encryptedText &t, std::ofstream &ofst) {
+    ofst << "encryptedText struct: ";
     switch (t.e_key) {
-    case language::CHARREPLACE:
+    case encryptedText::CHARREPLACE:
         Out(t.char_replace, ofst);
         break;
-    case language::CYCLE:
+    case encryptedText::CYCLE:
         Out(t.cycle, ofst);
         break;
-    case language::INTREPLACE:
+    case encryptedText::INTREPLACE:
         Out(t.int_replace, ofst);
         break;
     }
+    ofst << "decrypted str:" << t.str << '\n';
 }
 
 //------------------------------------------------------------------------------
@@ -104,7 +106,7 @@ void Out(encryptedText &t, std::ofstream &ofst) {
 double TextHash(encryptedText &t) {
     double sum = 0;
     for (int i = 0; i < t.str_len; i += 1) {
-        sum += (double)str[i];
+        sum += (double)t.str[i];
     }
-    return sum / str_len;
+    return sum / t.str_len;
 }

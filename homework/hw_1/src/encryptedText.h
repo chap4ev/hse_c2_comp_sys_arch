@@ -6,6 +6,7 @@
 //------------------------------------------------------------------------------
 
 #include <iostream>
+#include <cstring>
 
 #include "charReplaceEncryption.h"
 #include "cycleEncryption.h"
