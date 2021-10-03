@@ -14,6 +14,7 @@ void Init(container &c) {
 // Очистка контейнера от элементов (освобождение памяти)
 void Clear(container &c) {
     for(int i = 0; i < c.len; i++) {
+        Clear(c.cont[i]);
         delete c.cont[i];
     }
     c.len = 0;

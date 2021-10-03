@@ -31,6 +31,9 @@ struct encryptedText {
     };
 };
 
+// Деструктор
+void Clear(encryptedText &t);
+
 // Ввод
 encryptedText *In(std::ifstream &ifdt);
 

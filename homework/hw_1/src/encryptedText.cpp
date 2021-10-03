@@ -5,37 +5,57 @@
 
 #include "encryptedText.h"
 
-// Ввод
-encryptedText *In(std::ifstream &ifdt);
 
-// Случайный ввод
-encryptedText *InRnd();
+// Деструктор
+void Clear(encryptedText &t) {
+    switch (t.e_key) {
+    case language::CHARREPLACE:
+        delete [] t.char_replace.encrypted_str;
+        t.char_replace.str_len = 0;
+        delete [] str;
+        break;
+    case language::CYCLE:
+        delete [] t.cycle.encrypted_str;
+        t.cycle.str_len = 0;
+        delete [] str;
+        break;
+    case language::INTREPLACE:
+        delete [] t.int_replace.encrypted_str;
+        t.int_replace.str_len = 0;
+        delete [] str;
+        break;
+    }
+    t.str_len = 0;
+}
 
-// Вывод
-void Out(encryptedText &t, std::ofstream &ofst);
-
-// Частное от деления суммы кодов незашифрованной строки на число символов в этой строке
-double TextHash(encryptedText &t);
 
 //------------------------------------------------------------------------------
 // Ввод из потока
 encryptedText* In(std::ifstream &ifst) {
     encryptedText *text;
     char type[20];
-    int length;
     ifst >> type >> text.str_len;
     if (!strcmp(type, "charReplaceEncryption")) {
         text = new encryptedText;
         text->e_key = encryptedText::CHARREPLACE;
-        In(text->charReplace, ifst);
+        (text->char_replace).str_len = text.str_len;
+        In(text->char_replace, ifst);
+        text->str = (text->char_replace).Decrypt();
+
     } else if (!strcmp(type, "cycleEncryption")) {
         text = new encryptedText;
         text->e_key = encryptedText::CYCLE;
+        (text->cycle).str_len = text.str_len;
         In(text->cycle, ifst);
+        text->str = (text->cycle).Decrypt();
+
     } else if (!strcmp(type, "intReplaceEncryption")) {
         text = new encryptedText;
         text->e_key = encryptedText::INTREPLACE;
-        In(text->intReplace, ifst);
+        (text->int_replace).str_len = text.str_len;
+        In(text->int_replace, ifst);
+        text->str = (text->int_replace).Decrypt();
+
     } else {
         std::cout << "ERROR: Wrong type " << type;
         exit(1);
@@ -49,50 +69,42 @@ encryptedText *InRnd() {
     auto type = rand() % 3;
     if (type == 0) {
         text = new encryptedText;
-        text->k = encryptedText::CHARREPLACE;
+        text->e_key = encryptedText::CHARREPLACE;
         InRnd(text->p);
     } else if (type == 2) {
         text = new encryptedText;
-        text->k = encryptedText::CYCLE;
+        text->e_key = encryptedText::CYCLE;
         InRnd(text->f);
     } else {
         text = new encryptedText;
-        text->k = encryptedText::INTREPLACE;
+        text->e_key = encryptedText::INTREPLACE;
         InRnd(text->o);
     }
     return text;
 }
 
 //------------------------------------------------------------------------------
-// Вывод параметров текущего ЯП в поток
-void Out(language &lang, std::ofstream &ofst) {
-    switch (lang.k) {
-        case language::PROCEDURE:
-            Out(lang.p, ofst);
-            break;
-        case language::FUNCTIONAL:
-            Out(lang.f, ofst);
-            break;
-        case language::OOP:
-            Out(lang.o, ofst);
-            break;
-        default:
-            ofst << "Incorrect language type!\n";
+// Вывод в поток
+void Out(encryptedText &t, std::ofstream &ofst) {
+    switch (t.e_key) {
+    case language::CHARREPLACE:
+        Out(t.char_replace, ofst);
+        break;
+    case language::CYCLE:
+        Out(t.cycle, ofst);
+        break;
+    case language::INTREPLACE:
+        Out(t.int_replace, ofst);
+        break;
     }
 }
 
 //------------------------------------------------------------------------------
-// Вычисление частного от деления года создания на количество
-// символов в названии (действительное число)
-double YearDividedByNameLength(language &lang) {
-    switch (lang.k) {
-        case language::PROCEDURE:
-            return YearDividedByNameLength(lang.p);
-        case language::FUNCTIONAL:
-            return YearDividedByNameLength(lang.f);
-        case language::OOP:
-            return YearDividedByNameLength(lang.o);
-        default:
-            return 0;
+// Частное от деления суммы кодов незашифрованной строки на число символов в этой строке
+double TextHash(encryptedText &t) {
+    double sum = 0;
+    for (int i = 0; i < t.str_len; i += 1) {
+        sum += (double)str[i];
     }
+    return sum / str_len;
 }
