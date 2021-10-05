@@ -41,7 +41,9 @@ int main(int argc, char* argv[]) {
     ////cout << "argv[1] = " << argv[1] << "\n";
     if (!strcmp(argv[1], "-f")) {
         std::ifstream ifst(argv[2]);
+        std::cout << "input container" << std::endl;
         In(c, ifst);
+        std::cout << "input container end" << std::endl;
     } else if (!strcmp(argv[1], "-n")) {
         auto size = atoi(argv[2]);
         if ((size < 1) || (size > 10000)) {
@@ -64,8 +66,8 @@ int main(int argc, char* argv[]) {
     ofst1 << "Filled container:\n";
     Out(c, ofst1);
 
-    // // The 2nd part of task
-    // std::ofstream ofst2(argv[4]);
+    // The 2nd part of task
+    std::ofstream ofst2(argv[4]);
     // ofst2 << "Perimeter sum = " << PerimeterSum(c) << "\n";
 
     Clear(c);

@@ -9,7 +9,8 @@
 void In(cycleEncryption &ce, std::ifstream &ifst) {
     ce.encrypted_str = new char[ce.str_len];
     ifst >> ce.shift;
-    ifst.getline(ce.encrypted_str, ce.str_len);
+    ifst.ignore(1, ' ');
+    ifst.read(ce.encrypted_str, ce.str_len);
 }
 
 // Случайный ввод
@@ -19,7 +20,9 @@ void InRnd(cycleEncryption &ce) {
 
 // Вывод в поток
 void Out(cycleEncryption &ce, std::ofstream &ofst) {
-    ofst << "cycleEncryption struct: shift:" << ce.shift << " str:" << ce.encrypted_str;
+    ofst << "[cycleEncryption struct: shift:" << ce.shift
+         << " encrypted_str:" << ce.encrypted_str
+         << ']';
 }
 
 // Дешифровка строки

@@ -1,10 +1,10 @@
-#ifndef __pair__
-#define __pair__
+#ifndef __pairh__
+#define __pairh__
 
 //------------------------------------------------------------------------------
 // pair.h - содержит 
 // структуру ccPair пару <char, char> 
-// структуру ciPair пару <char, int> 
+// структуру csPair пару <char, short int> 
 //------------------------------------------------------------------------------
 
 struct ccPair {
@@ -12,9 +12,9 @@ struct ccPair {
     char second;
 };
 
-struct ciPair {
+struct csPair {
     char first;
-    int second;
+    short int second;
 };
 
-#endif  // __pair__
+#endif  // __pairh__

@@ -1,5 +1,5 @@
 //------------------------------------------------------------------------------
-// encryptedText.cpp - содержит процедуры связанные с созданием удалением и 
+// encryptedText.cpp - содержит процедуры связанные с созданием удалением и
 // обработкой encryptedText
 //------------------------------------------------------------------------------
 
@@ -12,6 +12,8 @@ void Clear(encryptedText &t) {
     case encryptedText::CHARREPLACE:
         delete [] t.char_replace.encrypted_str;
         t.char_replace.str_len = 0;
+        delete [] t.char_replace.replace_pairs;
+        t.char_replace.pairs_count = 0;
         delete [] t.str;
         break;
     case encryptedText::CYCLE:
@@ -22,6 +24,8 @@ void Clear(encryptedText &t) {
     case encryptedText::INTREPLACE:
         delete [] t.int_replace.encrypted_str;
         t.int_replace.str_len = 0;
+        delete [] t.int_replace.replace_pairs;
+        t.int_replace.pairs_count = 0;
         delete [] t.str;
         break;
     }
@@ -32,32 +36,33 @@ void Clear(encryptedText &t) {
 //------------------------------------------------------------------------------
 // Ввод из потока
 encryptedText* In(std::ifstream &ifst) {
-    encryptedText *text;
-    char type[20];
+    encryptedText *text = new encryptedText();
+    char type[50];
     ifst >> type >> text->str_len;
     if (!strcmp(type, "charReplaceEncryption")) {
-        text = new encryptedText;
+        std::cout << "charReplaceEncryption input" << std::endl; 
         text->e_key = encryptedText::CHARREPLACE;
         (text->char_replace).str_len = text->str_len;
         In(text->char_replace, ifst);
         text->str = Decrypt(text->char_replace);
 
     } else if (!strcmp(type, "cycleEncryption")) {
-        text = new encryptedText;
+        std::cout << "cycleEncryption input" << std::endl; 
         text->e_key = encryptedText::CYCLE;
         (text->cycle).str_len = text->str_len;
         In(text->cycle, ifst);
         text->str = Decrypt(text->cycle);
 
     } else if (!strcmp(type, "intReplaceEncryption")) {
-        text = new encryptedText;
+        std::cout << "intReplaceEncryption input" << std::endl; 
         text->e_key = encryptedText::INTREPLACE;
         (text->int_replace).str_len = text->str_len;
         In(text->int_replace, ifst);
         text->str = Decrypt(text->int_replace);
 
     } else {
-        std::cout << "ERROR: Wrong type " << type;
+        std::cout << "ERROR: Wrong type [" << type << "]\n";
+        delete text;
         exit(1);
     }
     return text;
@@ -86,19 +91,19 @@ encryptedText *InRnd() {
 //------------------------------------------------------------------------------
 // Вывод в поток
 void Out(encryptedText &t, std::ofstream &ofst) {
-    ofst << "encryptedText struct: ";
+    ofst << "[encryptedText struct:\n";
     switch (t.e_key) {
-    case encryptedText::CHARREPLACE:
-        Out(t.char_replace, ofst);
-        break;
-    case encryptedText::CYCLE:
-        Out(t.cycle, ofst);
-        break;
-    case encryptedText::INTREPLACE:
-        Out(t.int_replace, ofst);
-        break;
+        case encryptedText::CHARREPLACE:
+            Out(t.char_replace, ofst);
+            break;
+        case encryptedText::CYCLE:
+            Out(t.cycle, ofst);
+            break;
+        case encryptedText::INTREPLACE:
+            Out(t.int_replace, ofst);
+            break;
     }
-    ofst << "decrypted str:" << t.str << '\n';
+    ofst << "\ndecrypted str:" << t.str << "]\n";
 }
 
 //------------------------------------------------------------------------------
