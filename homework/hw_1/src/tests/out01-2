@@ -1,0 +1,11 @@
+Sorted container:
+Container contains 3 elements.
+0: [encryptedText struct:
+[charReplaceEncryption struct: pairs_count: 9 encrypted_str:hattfrefgtyw]
+decrypted str:[Hello world!] text_hash:93.0833]
+1: [encryptedText struct:
+[cycleEncryption struct: shift:2 encrypted_str:Jgnnq"yqtnf#]
+decrypted str:[Hello world!] text_hash:93.0833]
+2: [encryptedText struct:
+[intReplaceEncryption struct: pairs_count: 9 encrypted_str:1 2 3 3 4 5 6 4 7 3 8 9 ]
+decrypted str:[Hello world!] text_hash:93.0833]

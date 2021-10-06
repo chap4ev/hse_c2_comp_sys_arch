@@ -16,11 +16,13 @@ void Clear(charReplaceEncryption &cre) {
 
 // Ввод из потока
 void In(charReplaceEncryption &cre, std::ifstream &ifst) {
-    cre.encrypted_str = new char[cre.str_len];
+    std::cout << "charReplaceEncryption input" << std::endl;
+
+    ifst >> cre.str_len;
     ifst >> cre.pairs_count;
 
-    cre.replace_pairs = new ccPair[cre.pairs_count];
     ifst.ignore(1, ' ');
+    cre.replace_pairs = new ccPair[cre.pairs_count];
     for (int i = 0; i < cre.pairs_count; ++i) {
         ifst.get((cre.replace_pairs[i]).first);
     }
@@ -29,6 +31,7 @@ void In(charReplaceEncryption &cre, std::ifstream &ifst) {
     }
 
     ifst.ignore(1, ' ');
+    cre.encrypted_str = new char[cre.str_len];
     ifst.read(cre.encrypted_str, cre.str_len);
 }
 

@@ -11,6 +11,7 @@
 #include "charReplaceEncryption.h"
 #include "cycleEncryption.h"
 #include "intReplaceEncryption.h"
+#include "rnd.h"
 
 //------------------------------------------------------------------------------
 // структура, обобщающая все варианты шифрования текста

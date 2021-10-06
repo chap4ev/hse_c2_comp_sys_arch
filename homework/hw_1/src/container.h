@@ -32,4 +32,7 @@ void InRnd(container &c, int size);
 // Вывод содержимого контейнера в указанный поток
 void Out(container &c, std::ofstream &ofst);
 
+// Сортировка по возрастанию с помощью прямого выбора (Straight Selection)
+void Sort(container &c);
+
 #endif

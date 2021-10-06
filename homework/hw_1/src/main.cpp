@@ -41,13 +41,13 @@ int main(int argc, char* argv[]) {
     ////cout << "argv[1] = " << argv[1] << "\n";
     if (!strcmp(argv[1], "-f")) {
         std::ifstream ifst(argv[2]);
-        std::cout << "input container" << std::endl;
+        std::cout << "container filling" << std::endl;
         In(c, ifst);
-        std::cout << "input container end" << std::endl;
+        std::cout << "container filled" << std::endl;
     } else if (!strcmp(argv[1], "-n")) {
         auto size = atoi(argv[2]);
-        if ((size < 1) || (size > 10000)) {
-            std::cout << "incorrect numer of figures = "
+        if ((size < 1) || (size > 1000)) {
+            std::cout << "incorrect numer = "
                       << size
                       << ". Set 0 < number <= 10000\n";
             return 3;
@@ -55,7 +55,9 @@ int main(int argc, char* argv[]) {
         // системные часы в качестве инициализатора
         srand(static_cast<unsigned int>(time(0)));
         // Заполнение контейнера генератором случайных чисел
+        std::cout << "container random filling" << std::endl;
         InRnd(c, size);
+        std::cout << "container filled" << std::endl;
     } else {
         errMessage2();
         return 2;
@@ -66,9 +68,11 @@ int main(int argc, char* argv[]) {
     ofst1 << "Filled container:\n";
     Out(c, ofst1);
 
-    // The 2nd part of task
+    // Сортировка по возрастанию и вывод в ofst2
     std::ofstream ofst2(argv[4]);
-    // ofst2 << "Perimeter sum = " << PerimeterSum(c) << "\n";
+    Sort(c);
+    ofst2 << "Sorted container:\n";
+    Out(c, ofst2);
 
     Clear(c);
     std::cout << "Stop" << std::endl;

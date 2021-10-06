@@ -16,11 +16,13 @@ void Clear(intReplaceEncryption &ire) {
 
 // Ввод из потока
 void In(intReplaceEncryption &ire, std::ifstream &ifst) {
-    ire.encrypted_str = new short int[ire.str_len];
+    std::cout << "intReplaceEncryption input" << std::endl;
+    
+    ifst >> ire.str_len;
     ifst >> ire.pairs_count;
 
-    ire.replace_pairs = new csPair[ire.pairs_count];
     ifst.ignore(1, ' ');
+    ire.replace_pairs = new csPair[ire.pairs_count];
     for (int i = 0; i < ire.pairs_count; ++i) {
         ifst.get((ire.replace_pairs[i]).first);
     }
@@ -28,6 +30,7 @@ void In(intReplaceEncryption &ire, std::ifstream &ifst) {
         ifst >> (ire.replace_pairs[i]).second;
     }
 
+    ire.encrypted_str = new short int[ire.str_len];
     for (int i = 0; i < ire.str_len; ++i) {
         ifst >> ire.encrypted_str[i];
     }

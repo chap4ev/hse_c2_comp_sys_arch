@@ -29,26 +29,26 @@ void Clear(encryptedText &t) {
 encryptedText* In(std::ifstream &ifst) {
     encryptedText *text = new encryptedText();
     char type[50];
-    ifst >> type >> text->str_len;
+    ifst >> type;
     if (!strcmp(type, "charReplaceEncryption")) {
-        std::cout << "charReplaceEncryption input" << std::endl;
         text->e_key = encryptedText::CHARREPLACE;
-        (text->char_replace).str_len = text->str_len;
         In(text->char_replace, ifst);
+        ifst.ignore(1000, '\n');
+        text->str_len = (text->char_replace).str_len;
         text->str = Decrypt(text->char_replace);
 
     } else if (!strcmp(type, "cycleEncryption")) {
-        std::cout << "cycleEncryption input" << std::endl;
         text->e_key = encryptedText::CYCLE;
-        (text->cycle).str_len = text->str_len;
         In(text->cycle, ifst);
+        ifst.ignore(1000, '\n');
+        text->str_len = (text->cycle).str_len;
         text->str = Decrypt(text->cycle);
 
     } else if (!strcmp(type, "intReplaceEncryption")) {
-        std::cout << "intReplaceEncryption input" << std::endl;
         text->e_key = encryptedText::INTREPLACE;
-        (text->int_replace).str_len = text->str_len;
         In(text->int_replace, ifst);
+        ifst.ignore(1000, '\n');
+        text->str_len = (text->int_replace).str_len;
         text->str = Decrypt(text->int_replace);
 
     } else {
@@ -61,21 +61,28 @@ encryptedText* In(std::ifstream &ifst) {
 
 // Случайный ввод
 encryptedText *InRnd() {
-    encryptedText *text;
-    auto type = rand() % 3;
+    encryptedText *text = new encryptedText();
+    auto type = 1;  // Random(0,3);
+
     if (type == 0) {
-        text = new encryptedText;
         text->e_key = encryptedText::CHARREPLACE;
         InRnd(text->char_replace);
-    } else if (type == 2) {
-        text = new encryptedText;
+        text->str_len = (text->char_replace).str_len;
+        text->str = Decrypt(text->char_replace);
+
+    } else if (type == 1) {
         text->e_key = encryptedText::CYCLE;
         InRnd(text->cycle);
-    } else {
-        text = new encryptedText;
+        text->str_len = (text->cycle).str_len;
+        text->str = Decrypt(text->cycle);
+
+    } else if (type == 2) {
         text->e_key = encryptedText::INTREPLACE;
         InRnd(text->int_replace);
+        text->str_len = (text->int_replace).str_len;
+        text->str = Decrypt(text->int_replace);
     }
+
     return text;
 }
 
