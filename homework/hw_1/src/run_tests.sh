@@ -1,17 +1,12 @@
-echo "\nRun test01\n"
-./bin/hw1 -f ./tests/test01.txt ./tests/out01-1 ./tests/out01-2
+for VARIABLE in 01 02 03 04 05
+do
+    echo "\nRun test$VARIABLE\n"
+    start=$(date +%s.%6N)
+    ./bin/hw1 -f ./tests/test$VARIABLE.txt ./tests/out$VARIABLE-1 ./tests/out$VARIABLE-2
+    echo "Runtime: "$(echo "scale=6; $(date +%s.%6N) - $start" | bc)" ms"
+done
 
-echo "\nRun test02\n"
-./bin/hw1 -f ./tests/test02.txt ./tests/out02-1 ./tests/out02-2
-
-echo "\nRun test03\n"
-./bin/hw1 -f ./tests/test03.txt ./tests/out03-1 ./tests/out03-2
-
-echo "\nRun test04\n"
-./bin/hw1 -f ./tests/test04.txt ./tests/out04-1 ./tests/out04-2
-
-echo "\nRun test05\n"
-./bin/hw1 -f ./tests/test05.txt ./tests/out05-1 ./tests/out05-2
-
-echo "\nRun test random\n"
-./bin/hw1 -n 100 ./tests/outrand-1 ./tests/outrand-2
+echo "\nRun test random 1000\n"
+start=$(date +%s.%6N)
+./bin/hw1 -n 1000 ./tests/outrand-1 ./tests/outrand-2
+echo "Runtime: "$(echo "scale=6; $(date +%s.%6N) - $start" | bc)" ms"
