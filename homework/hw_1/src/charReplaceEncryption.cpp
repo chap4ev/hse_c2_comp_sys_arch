@@ -37,7 +37,7 @@ void In(charReplaceEncryption &cre, std::ifstream &ifst) {
 
 // Случайный ввод
 void InRnd(charReplaceEncryption &cre) {
-    std::cout << "random charReplaceEncryption input" << std::endl;
+    // std::cout << "random charReplaceEncryption input" << std::endl;
 
     cre.str_len = Random(1, 100);
     cre.pairs_count = Random(0, cre.str_len);

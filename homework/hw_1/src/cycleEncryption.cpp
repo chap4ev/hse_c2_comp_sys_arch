@@ -25,7 +25,7 @@ void In(cycleEncryption &ce, std::ifstream &ifst) {
 
 // Случайный ввод
 void InRnd(cycleEncryption &ce) {
-    std::cout << "random cycleEncryption input" << std::endl;
+    // std::cout << "random cycleEncryption input" << std::endl;
 
     ce.str_len = Random(1, 100);
     ce.shift = Random(-100, 101);

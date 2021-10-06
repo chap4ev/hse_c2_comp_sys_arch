@@ -1,514 +1,507 @@
 Filled container:
 Container contains 100 elements.
-0: [encryptedText struct:[charReplaceEncryption struct:
-	pairs_count: 25
-	encrypted_str: [4Ps9ROkQ5WZgfa Si37qNC5jWp6jQaZT] ]
-decrypted str: [LPsCROkQfWYZfaASVC7q9CfjWp6jQaYb]
-text_hash:86.8438]
-1: [encryptedText struct:[cycleEncryption struct: 
-	shift: -8
-	encrypted_str: [I[c=__<nmE?f.?jlm+nGQOJ^C*[] ]
-decrypted str: [QckEggDvuMGn6Grtu3vOYWRfK2c]
-text_hash:89.8889]
-2: [encryptedText struct:[intReplaceEncryption struct:
-	pairs_count: 81
-	encrypted_str: [8388 8797 28308 -6097 -18119 -10533 17575 16276 27794 -9846 -1078 -29066 -16633 -17949 -6236 -1649 6871 22509 27806 -19319 -697 31203 12812 -27136 -22450 -27012 21682 24225 6603 15032 458 14990 -8939 28766 -23875 -27059 18232 26467 21984 13258 16620 20905 -15809 -13 2956 10723 31105 9826 464 -6625 23275 -234 24577 3319 5398 -30641 -23693 27079 26351 15677 9343 26809 -2101 -32364 -9961 -25977 -26656 8270 489 -4673 21527 -15659 -16535 -27049 17095 19188 -16327 -17336 -3754 16904 8806 ] ]
-decrypted str: [kSE0 jz25SYPEIrI5l8fDoSaSXWlVhlg0YnifVhjNg0rXy92UcewB6Hr3COWU9c45ykjtCEgTLGOkMQcZ]
-text_hash:85.1605]
-3: [encryptedText struct:[charReplaceEncryption struct:
-	pairs_count: 0
-	encrypted_str: [8p] ]
-decrypted str: [8p]
-text_hash:84]
-4: [encryptedText struct:[charReplaceEncryption struct:
-	pairs_count: 44
-	encrypted_str: [d5dT12c83umns4hn4IJ9iGQ89Cf2QJQ5O3XM2aR5Dbr6dHsgn nGPbLXO2WEJKHx] ]
-decrypted str: [d5dfkUp83VmnsRanRIX9iGQ896hUQXQ5O3U2UMR5DEUrdLsgn nGtELUOUIEXKLx]
-text_hash:83.0781]
-5: [encryptedText struct:[intReplaceEncryption struct:
-	pairs_count: 6
-	encrypted_str: [-13481 31280 -11582 -19273 -23097 31999 ] ]
-decrypted str: [khuyZV]
-text_hash:104.167]
-6: [encryptedText struct:[charReplaceEncryption struct:
-	pairs_count: 11
-	encrypted_str: [KdNjbI9wLhwCD] ]
-decrypted str: [ dKjbI9wLhwCD]
-text_hash:84.1538]
-7: [encryptedText struct:[intReplaceEncryption struct:
-	pairs_count: 8
-	encrypted_str: [8036 15418 12515 29852 31708 -27247 24582 18399 ] ]
-decrypted str: [T8IZ19Vi]
-text_hash:75]
-8: [encryptedText struct:[charReplaceEncryption struct:
-	pairs_count: 25
-	encrypted_str: [kBxtH4HIQORG7kfCElFkuUA94qlz] ]
-decrypted str: [aVxQH4HIQORG7awCElFaBUA04qlz]
-text_hash:82.3929]
-9: [encryptedText struct:[cycleEncryption struct: 
-	shift: -90
-	encrypted_str: [j^\[_trhiim~z] ]
-decrypted str: [Do8659NLYBCCGXTg]
-text_hash:74.25]
-10: [encryptedText struct:[intReplaceEncryption struct:
-	pairs_count: 5
-	encrypted_str: [-2017 -1708 -16166 27036 3801 ] ]
-decrypted str: [NQV8q]
-text_hash:82.8]
-11: [encryptedText struct:[charReplaceEncryption struct:
-	pairs_count: 5
-	encrypted_str: [GNSDG cU88zWAlLtsbGmat] ]
-decrypted str: [GNSDG cU88zWAlLtsbGmat]
-text_hash:85.4091]
-12: [encryptedText struct:[cycleEncryption struct: 
-	shift: -53
-	encrypted_str: [%?%/<71E#6C1.}7.79] ]
-decrypted str: [ZtZ4EdKq7l6fzXkExfcT2HlclHnN]
-text_hash:89.7143]
-13: [encryptedText struct:[charReplaceEncryption struct:
-	pairs_count: 9
-	encrypted_str: [RAcwVnQAJEVnNdtVzbfDlG4Ak4KiHsuw4F3W4SwNwq0hECdbMrN97QGoTrG] ]
-decrypted str: [RAcwVnQAJeVnNHtVzZfD9G4Ak4KiHsuw4F3W4SwNwq7heCHZMqNh7QGoTqG]
-text_hash:86.2712]
-14: [encryptedText struct:[intReplaceEncryption struct:
-	pairs_count: 40
-	encrypted_str: [-14450 -10332 -11076 -28396 30077 -27843 -1498 858 12193 22166 -17236 -17848 431 -18184 8693 -29811 -18256 1187 26969 -18843 15692 2287 16611 5528 28350 12722 11978 10043 -9300 25622 -1747 -23751 -17478 19944 13387 -20169 -7900 11889 -19312 4293 ] ]
-decrypted str: [8bcUWBiT0uiuNLEMDHcdjxWYLuIQWrh5BsYx5erbA]
-text_hash:89.225]
-15: [encryptedText struct:[charReplaceEncryption struct:
-	pairs_count: 16
-	encrypted_str: [6neamDrDzFQekMJZ wC9LeD45yvBbDAgZPqlsSX1vMcRyWOHrqNcDqfHZMganRpmEQH6GC6cog3WcQBEeo] ]
-decrypted str: [6DdamxtxzNQdkMJZ wC9Ldx45yYBbxAZZPqlXSX1YMciygOFtqNcxqiFZMZaDipmEQF6GC6coZ3gcQBEdo]
-text_hash:88.878]
-16: [encryptedText struct:[cycleEncryption struct: 
-	shift: -51
-	encrypted_str: [#18G8m] ]
-decrypted str: [7AMQQVdHkzk ]
-text_hash:82.0833]
-17: [encryptedText struct:[charReplaceEncryption struct:
-	pairs_count: 89
-	encrypted_str: [8lFDLu93ocJ 8FGEHTGGfcp5J bhxDICXmfIRmKdxroE86iOWYtaaRcT2p0x2R YdqE6LmjiOIWVLeIGc Rm25d1rmxqdIos82v] ]
-decrypted str: [zlFyYeK3248 zFG281GGf4Ur8 VhxyIC0gfIZgTdxx22z6iO1wPaaZ419UAx9Z wdz26YgjiOI1xYBIG4 Zg9rd1xgxzdI28z9Y]
-text_hash:82]
-18: [encryptedText struct:[intReplaceEncryption struct:
-	pairs_count: 52
-	encrypted_str: [31677 -5209 -21877 -26927 17840 -14429 24047 2013 -30394 -11127 -24724 -24918 -28346 8999 12719 11205 16403 -19276 29418 -25625 27307 6102 12977 8216 7590 953 -26375 -22067 -4481 -1452 16736 -5571 -6662 27626 269 -21589 13196 24315 -19577 15569 13187 21233 -9350 17608 30232 -29399 -3954 13867 -15907 25463 -11758 11399 ] ]
-decrypted str: [AI5EIkKdpbxBPnTBup0yqFmb92ZwV9owQs0wLRJ04gLRCCs74BCr]
-text_hash:84.3654]
-19: [encryptedText struct:[charReplaceEncryption struct:
-	pairs_count: 40
-	encrypted_str: [yNBzASzFy1fAuHXBPy8VMyF6XuUa1zdwnP5YFDDdBSO7zKImiNh6kV9ho3rmCFUYsYU9Awkbo8gWRXi K] ]
-decrypted str: [yvOzsCzFyGIs57XO2y8VHyFwX5UaGz79s2HnFDD7OCP2zKzqivhwkV9hfirqCFUnonU9s9kbf8mCRXi0K]
-text_hash:88.2222]
-20: [encryptedText struct:[cycleEncryption struct: 
-	shift: -65
-	encrypted_str: [4+++#0vu))/t&q/
-5] ]
-decrypted str: [ullTlNdWq7ST6NZDjjPIp5Eg2XpKvANY]
-text_hash:87.25]
-21: [encryptedText struct:[charReplaceEncryption struct:
-	pairs_count: 53
-	encrypted_str: [2No58ByfIWHyjAZHkDf90nAqrrsGF8pEVPI1oef6bVEvvDbQerXnPxMfYcUDkkhf9YfucuAmp] ]
-decrypted str: [2woh8nbfIVHb6EZHklf rnEwpp8TF8REVcIzoEfQ5VErrl5bEpencPgfYcelkkhf YfcccEIR]
-text_hash:89.6027]
-22: [encryptedText struct:[cycleEncryption struct: 
-	shift: 14
-	encrypted_str: [_DWBTwpq.|ZWZ@e`ho{.TfB.}fg] ]
-decrypted str: [Q6I4uFqibcy nqLIL2WRZam FXx4 oXYrG2WjpevALDYcmFWnBMkM0tr52tbnq9P68JnwZR6Iv2]
-text_hash:84.72]
-23: [encryptedText struct:[intReplaceEncryption struct:
-	pairs_count: 63
-	encrypted_str: [516 -25489 6948 23305 -28320 24390 -19690 -1662 13191 -6958 17969 -7732 19814 -2869 -11704 -18777 -28576 -2226 15514 24960 10091 14503 -30773 -19132 -860 -7919 -23820 4273 4571 -20901 26005 5087 -13623 185 -4376 -9176 24574 8701 -10839 -27770 1742 7129 -2735 -11212 4259 -14439 -29989 8450 -16666 18292 642 -6576 27 -30132 -25709 -834 -5284 -16761 -29328 32054 -4895 -3324 4373 ] ]
-decrypted str: [ovtfabQSk9ypmAOEPE5Yf91tTDQkJba7FElRO J9hfvEQjgGWkEbsCFjeuDYGO4]
-text_hash:86.1111]
-24: [encryptedText struct:[intReplaceEncryption struct:
-	pairs_count: 28
-	encrypted_str: [-6945 29224 -13767 -21982 28011 -11686 29874 17726 -10379 -10953 -16073 25699 27821 -24516 -16230 15769 18588 27697 -11708 -10772 -7192 -27125 1711 -19155 -31198 -14394 21251 -19554 ] ]
-decrypted str: [ qGzCU8xhWH0oKj0oodIFHEAxNZZ]
-text_hash:84.5]
-25: [encryptedText struct:[charReplaceEncryption struct:
+0: [encryptedText struct:[cycleEncryption struct: 
+	shift: -68
+	encrypted_str: [!(] ]
+decrypted str: [elPDCRn0yINDpKh7AhPtb4dzWPNNnJHA7wdIlzPUhAwFjMJU5yoeAAOwnBhJj1jpux7R8VLmuf1O3JI8g6jPD9lZI]
+text_hash:86.0112]
+1: [encryptedText struct:[intReplaceEncryption struct:
 	pairs_count: 37
-	encrypted_str: [HMk6MiISRmIyv7n0Tlq ZkwkxzXaZ0oEVHJF2rvS1] ]
-decrypted str: [HMk6MiISRmIyvwn0pUqKzkwkvkXrz0oEVH612rvSA]
-text_hash:91.775]
-26: [encryptedText struct:[cycleEncryption struct: 
-	shift: 18
-	encrypted_str: [xx^BJ`zII_W~}`}sje] ]
-decrypted str: [ffLo08Nh77MpElkNktaXmS]
-text_hash:88.0909]
-27: [encryptedText struct:[intReplaceEncryption struct:
-	pairs_count: 55
-	encrypted_str: [-7931 3167 1894 29904 -6308 -4204 21830 -9609 26223 821 1310 -32129 28762 -27277 16357 -16306 23756 -21676 -21332 19712 -4908 31240 -20313 10015 -15667 30182 -32587 -9919 28707 -15521 24830 20776 -12355 26723 -14856 14105 -10249 6973 4495 -16794 7793 5804 -16156 3788 -21474 201 20249 2282 11292 -1084 -10774 6384 -2612 1680 16398 ] ]
-decrypted str: [46WFVfhAClZR8v0LTUteUsIhAFD7qOjrRd8Ksmk6IiUPM4ADV4TPvz8]
-text_hash:83.6182]
-28: [encryptedText struct:[cycleEncryption struct: 
-	shift: -13
-	encrypted_str: [,8kd+b8U] ]
-decrypted str: [9Exq8oEb]
-text_hash:86.625]
-29: [encryptedText struct:[cycleEncryption struct: 
-	shift: 29
-	encrypted_str: [=gRTUb=OcQn`vnei_hg] ]
-decrypted str: [s hJ57v8E 2F4QbCYdQHkteLyBnKJvhcDAWIEqNiAOZB]
-text_hash:81.6591]
-30: [encryptedText struct:[charReplaceEncryption struct:
-	pairs_count: 5
-	encrypted_str: [NJPg31UAUA] ]
-decrypted str: [NJPg31UAUA]
-text_hash:73.5]
-31: [encryptedText struct:[charReplaceEncryption struct:
-	pairs_count: 3
-	encrypted_str: [BDpV] ]
-decrypted str: [BDpV]
-text_hash:83]
-32: [encryptedText struct:[charReplaceEncryption struct:
-	pairs_count: 6
-	encrypted_str: [nVtAeS874zxS ah4NXBQ8zUmiFnitobRkFqxvxDw6aoc] ]
-decrypted str: [nVtAeS87NzxS6ahN1XBQ8z4miFnitobRkFqxvxDw6aoc]
-text_hash:91.4545]
-33: [encryptedText struct:[intReplaceEncryption struct:
-	pairs_count: 70
-	encrypted_str: [-31230 -8390 -12733 10965 16659 32023 1978 29800 14749 7044 14912 29899 23630 9896 14796 -16713 -31794 -4700 6424 3477 -25324 32608 -2237 5632 -13654 28082 6308 11230 -13995 -17470 12721 20310 6908 -13 -1493 23566 -757 -32283 20599 13991 -25240 2743 -21646 -1610 12638 -6851 -18324 13611 21216 20868 -15679 -4109 20708 -17917 1523 7053 10164 -24937 -14484 -3831 -9640 -1764 -16289 -2733 30991 14985 -11934 30233 -17299 8664 ] ]
-decrypted str: [XAYxOV2 CChxXHdzUDDg6uuM 8BBQXzNvxihqjp4XIBSnNpfq4xwv1iF8TeXOMIjh2zIjZ]
-text_hash:87.4857]
-34: [encryptedText struct:[intReplaceEncryption struct:
-	pairs_count: 43
-	encrypted_str: [3662 32568 -32403 -19618 -5599 21537 -23977 -29547 19359 8868 22429 16956 -21150 2970 11597 -17506 -7407 24113 17265 6768 -2366 -3684 2955 9098 7757 -30228 17016 -30988 -24186 -6496 -17443 12244 26071 15688 -7375 20471 4457 1415 23691 23815 10282 13353 8004 ] ]
-decrypted str: [oLNiYH7XmDdk07ZXVpZo 8WZIInQkNYJyL2ur8pMJD8]
-text_hash:83.9302]
-35: [encryptedText struct:[intReplaceEncryption struct:
-	pairs_count: 81
-	encrypted_str: [-10323 1634 -7115 -14896 11698 -30652 6601 -28085 3971 15801 -30644 7242 -16843 -9389 20794 -3368 19870 23477 26429 -29575 -2216 32371 30228 26515 -11540 -32461 7682 -4050 20827 -18191 24615 10504 16210 -15268 -4393 27908 -13153 -30559 32590 -9182 -14759 1945 30827 -31603 -7445 18853 30564 12424 -23206 24225 15617 7346 -8940 -19691 -31675 -20481 13382 8774 8237 1442 -9418 84 -20822 6791 -15185 7552 1931 -28339 -23008 -31015 -4754 27768 -29071 -6695 -3836 -3748 12157 -6040 -24092 21719 18184 ] ]
-decrypted str: [7oVqYK1ZkVhpfFAsQQ9C3MATm3dEgLRn9KM7sM4OIkdYZNqPDxpFhYwC1Jhfu8BDPnHh9J5Q3gN25bOFH]
-text_hash:82.4568]
-36: [encryptedText struct:[charReplaceEncryption struct:
-	pairs_count: 5
-	encrypted_str: [BMoj4u28l4n84rgR6X5oVfctpKkPKfQm2cE3HD02Gv7JVnz2kDpdRAHgk174eUnf8] ]
-decrypted str: [BMoj4uX8l4n84rgR6X5oVfctpKkPKfxmXcE3HD0XGv7JVnzXkDpdRAHgkp74eUnf8]
-text_hash:86.6923]
-37: [encryptedText struct:[charReplaceEncryption struct:
-	pairs_count: 6
-	encrypted_str: [daN4Lsk5] ]
-decrypted str: [daN4LsO5]
-text_hash:81.25]
-38: [encryptedText struct:[charReplaceEncryption struct:
-	pairs_count: 9
-	encrypted_str: [VGc7tfPUyRlWW3dnWAQ7LWDKi2] ]
-decrypted str: [VGc7tfPUyRltt3dntAQ7LtDKi8]
-text_hash:88.8846]
-39: [encryptedText struct:[cycleEncryption struct: 
-	shift: -44
-	encrypted_str: [@(t$,#	M!B,&&t D&)K-GB:J
-*(.I%8.L.%:K?] ]
-decrypted str: [HG7lT P9XHEO5yK7M04nX00RKR LpRU8wYsn9fv6V0TZHC7uJ8QGdZxZQFIfwDk]
-text_hash:79.5079]
-40: [encryptedText struct:[cycleEncryption struct: 
-	shift: 35
-	encrypted_str: [l}] ]
-decrypted str: [pIZ]
-text_hash:91.6667]
-41: [encryptedText struct:[intReplaceEncryption struct:
-	pairs_count: 51
-	encrypted_str: [26960 11422 -15358 -5851 31802 7185 -31968 -17489 29698 -8701 -29373 32322 -14597 -20421 -18604 27942 -30619 13988 -11290 17137 6879 -4836 -29362 17183 -24810 -13101 32299 13428 -835 -12381 29911 26124 -959 14552 20272 -1925 -11031 -11697 -19415 18666 12369 -16021 -14548 30540 -3675 -385 -7054 31240 -19165 14423 -17159 ] ]
-decrypted str: [jNzEWDmMEZqzDGnYb8tGUYMWsZbH1rWkcvX00kWNjkkV3ITdOkT]
-text_hash:88.549]
-42: [encryptedText struct:[cycleEncryption struct: 
-	shift: -42
-	encrypted_str: [ %G:C+F))M07G!I#D#%;/N&='J*P/+?P>H%<] ]
-decrypted str: [CJBOqBdmUpSSwZaqKsM6nMOeYAxPgQtTz6FYEUizh0rO9Af]
-text_hash:88.6596]
-43: [encryptedText struct:[cycleEncryption struct: 
-	shift: 77
-	encrypted_str: [#<5}FF'~=D@&43"] ]
-decrypted str: [VoKHBIh0yyZ1pw47sHYLgfUG31ghQjfLG1thHJqfindGUgMkWI7dW1SZ1 gOrvA0v3qcLQq3dEJ8TtrQcy30wU9v3njsRS]
-text_hash:85.8617]
-44: [encryptedText struct:[intReplaceEncryption struct:
-	pairs_count: 87
-	encrypted_str: [-17227 29552 -29531 -1125 29965 -24854 -32016 -13750 7415 6796 15696 4726 18293 3844 -22562 -22256 31510 7683 -9334 -1477 27665 9216 -9838 4400 -8364 -17626 -1334 8595 -1715 23698 11406 13825 -12285 14642 -20068 17679 22556 13451 -28839 -2797 -12521 19624 1928 5771 23468 12134 16282 -10558 19816 6948 20732 -18055 -16604 10893 19113 -24969 26035 17778 16393 -8448 -24059 27798 -27391 -3577 9673 18076 -18666 32228 -1241 -14737 29430 -13763 4886 -1410 24776 28353 10723 -24478 -14972 -2228 15237 5759 12484 31400 -16115 31596 -26337 ] ]
-decrypted str: [x051HwGvnhlDqlWxzJxDopFcriqQFglann06SPyd7URueL3MvxpSY56nmtd1Kx07Uh0M6F20yQENCGx9eXYaZ4y]
-text_hash:87.7471]
-45: [encryptedText struct:[cycleEncryption struct: 
-	shift: 52
-	encrypted_str: [% }*d
-|.'$e*&(u
-)df.mfv|j(d"	
-#T".T~)~dji,-] ]
-decrypted str: [jfgqlaIvXM0WVHNzspe1vrWtAVu0h2Rze92BiH6etd0nWUVoh nNzje eJguJ06Ye5xyLALdPUBJPw78FtTeN7n2OEvvLyt2C]
-text_hash:87.2474]
-46: [encryptedText struct:[intReplaceEncryption struct:
-	pairs_count: 53
-	encrypted_str: [-19463 25265 22086 -15717 2050 -23216 -20673 -10188 -15522 5665 7297 -26784 8140 -11986 -14820 9657 -9562 -11985 -291 21582 11791 -20580 -28752 1506 30673 -31511 6538 -10237 -9425 -30002 26352 -28889 -4738 -17098 20928 -2688 -7547 -32513 19891 -23069 -26848 27187 -17086 -18709 -17566 861 23715 5639 -11125 23423 27220 -32101 -29924 ] ]
-decrypted str: [Dlm00HfUxIgGI4YRWeF3zMNNn14VF7Yirksz1GtxmKb6L9XInCIVm]
-text_hash:84.3774]
-47: [encryptedText struct:[charReplaceEncryption struct:
-	pairs_count: 65
-	encrypted_str: [zXALULCPuYmHuV1SqdiO0JMmMTVk6d8D Io3r2QWXaCr7CjvOAjWk5i6Ybn2qtEy 4yB3ovZx9oEKH9zhrtAuKEqX3rl] ]
-decrypted str: [0PACuCzzBHmHBV15qDxO03ZmZ VkFDG2MIo3rKX3Pvzr7zapOAa3kBxFHxnKqtQSM4SB3opaxsoQtHs0wrtABtQqP3rk]
-text_hash:86.5978]
-48: [encryptedText struct:[intReplaceEncryption struct:
-	pairs_count: 69
-	encrypted_str: [-24340 -2682 -10453 11681 -17869 -11413 4319 22088 -21532 -5373 18767 -9494 -17073 -4321 22374 -1234 -9129 -2657 3574 -18375 -12753 -28809 -28540 -5560 -7713 -23883 12572 -20254 13240 7185 19240 -11101 -28265 8787 -32187 19401 -2627 4899 -24047 8608 -475 27487 -887 15220 23165 21486 -18782 -18732 -13938 -15209 28427 -26692 -11251 -113 -32253 13803 8771 -19682 -6451 22011 20270 -19979 -21858 24773 -11193 -21278 -21362 18947 -16380 ] ]
-decrypted str: [DfEhXJxOSU AVvifxrThrbfl33hNSilvyYLuFiixdq98UpmrRdJgqXCqZSdPbxkIv6aan]
-text_hash:93.3043]
-49: [encryptedText struct:[charReplaceEncryption struct:
-	pairs_count: 6
-	encrypted_str: [TY6ROgGYP1H] ]
-decrypted str: [TY6SOgGYP1H]
-text_hash:77.5455]
-50: [encryptedText struct:[charReplaceEncryption struct:
-	pairs_count: 7
-	encrypted_str: [ Iz3GETuVztIz05] ]
-decrypted str: [ Iz3GETuVztIz05]
-text_hash:82.6]
-51: [encryptedText struct:[charReplaceEncryption struct:
-	pairs_count: 15
-	encrypted_str: [Lz8tECdr7fTODiEJew] ]
-decrypted str: [xzK3ECdr7fcODiEJPw]
-text_hash:87.1111]
-52: [encryptedText struct:[intReplaceEncryption struct:
-	pairs_count: 25
-	encrypted_str: [-29407 -18856 -8153 -138 31606 7380 -27564 27127 -8198 -26649 5220 -19183 1393 -29926 11377 7859 -22610 -32312 -16995 30127 2936 -8208 -17705 -22330 3854 ] ]
-decrypted str: [fGYMcK3W2Dls4z9ZAxvFqEmvc]
-text_hash:87.76]
-53: [encryptedText struct:[cycleEncryption struct: 
-	shift: -37
-	encrypted_str: [('GLC))SL/ONMM3!RU&>*I5T#555&T35QKJ.K=] ]
-decrypted str: [MLl3qhND3Nx4qTtsrCr19XFwz33KcOnZyHZZZKA2y93XZvpo7Spb]
-text_hash:86.6923]
-54: [encryptedText struct:[intReplaceEncryption struct:
-	pairs_count: 78
-	encrypted_str: [8900 17847 8215 -30865 22584 28196 9042 -29943 -23206 7986 -4812 -26785 -28509 30875 -5626 -12968 -26427 20542 -7844 -26277 31853 -11216 25311 -19120 -26802 15817 -9854 12431 10148 -13035 12521 19047 4811 -12032 20950 -5372 16163 29991 30219 -7044 5209 -7360 -1061 9467 -9253 -6688 -3502 29855 13853 -11347 -29190 12938 -22564 -3880 -6183 16168 11937 16730 -4169 22084 3695 -24415 8363 -24262 29087 -3455 -29635 -20285 -6232 -32183 5438 -1024 25991 4376 8442 -16030 -2313 4939 ] ]
-decrypted str: [llX0LJu3wy7MuDy13XQnju4U2bSoSheeBclkUQnonr0S4HQ6DHqX rP0BIxuYLHxW2TQPeccGm5H3U]
-text_hash:85.5]
-55: [encryptedText struct:[cycleEncryption struct: 
-	shift: -40
-	encrypted_str: [:"I,>G!xHGK-< HDILKF&/2!O*;-P>.(B@
-N0.APGB2$] ]
-decrypted str: [bBJDqTf8oI4 pB7osUdH7plqt4snN8WZIFB8wRcUxf5VP0jh2vX8VixojZL75]
-text_hash:85.2459]
-56: [encryptedText struct:[charReplaceEncryption struct:
-	pairs_count: 7
-	encrypted_str: [oVKl1FDw4VvM2xr6hKJ0yb] ]
-decrypted str: [oVKl1FDw4VviIxr6hKJ0yb]
-text_hash:87.6364]
-57: [encryptedText struct:[charReplaceEncryption struct:
-	pairs_count: 49
-	encrypted_str: [p82fIUdd58sjkgXSxAlRU15Pk9DS0b1xh3LYUZbY7FhpWfhrQBjKBlyUs KBkL8CLSyFQJDUQ] ]
-decrypted str: [p85fNiddY8sVQSXSxTlRiSYPQxDS0wSx5sLYitwYKC5pWf5TQRVKRl9isyKRQL8CLS9CQCDiA]
-text_hash:86.2222]
-58: [encryptedText struct:[intReplaceEncryption struct:
+	encrypted_str: [28204 4648 23446 26728 9816 32220 -22640 -30204 -20960 -6591 -28151 24460 -7190 10051 4931 23611 -30555 28810 -13266 -14755 12727 -22050 16450 16298 16578 -2200 19120 27461 26814 30207 -17357 -10518 2088 -26679 -16558 11903 -27226 ] ]
+decrypted str: [6jXrZVlVS4SxpVtSgeUKjXS2H3hsBDLEXG7WB]
+text_hash:85.027]
+2: [encryptedText struct:[cycleEncryption struct: 
+	shift: 7
+	encrypted_str: [{P8YIzOZOIH8zal|nM<ZxPW@UQOj'Lm7~ZIkPpXqnuT] ]
+decrypted str: [tI1RBsHSHBA1zsZeugF5SqIP9NJHcz Ef0wSBdIiQjgnM]
+text_hash:84.5333]
+3: [encryptedText struct:[cycleEncryption struct: 
+	shift: 96
+	encrypted_str: [UGHM&:] ]
+decrypted str: [ughmFZ LMUtZrBCGK0ylmgDaySwj0]
+text_hash:89.4138]
+4: [encryptedText struct:[intReplaceEncryption struct:
+	pairs_count: 19
+	encrypted_str: [-24017 28641 -16041 361 26649 -18703 -23173 -314 108 -24255 13295 31297 31074 15922 3631 -21257 -1207 -154 -1055 ] ]
+decrypted str: [WCVzOsskMzsjaP09SYh]
+text_hash:92.4211]
+5: [encryptedText struct:[cycleEncryption struct: 
+	shift: 43
+	encrypted_str: [_t{| c}o] ]
+decrypted str: [Y4IPbQptum8oWTRmdDUFX7s5dk3tZxLVytLLkacNvhbqa4NnEI4BMtGYPGsOb]
+text_hash:89.0492]
+6: [encryptedText struct:[intReplaceEncryption struct:
 	pairs_count: 66
-	encrypted_str: [-30773 -8288 30099 16319 -526 20622 -29315 -21868 18235 -11839 13064 -11877 20543 6637 -29500 14916 -6230 -9634 19705 22578 1197 6508 -15694 9960 25795 13577 -22669 -30744 31113 24166 17696 339 -16890 -17740 -16109 15351 -29886 -12657 -6517 21116 -24497 -26221 -23529 -3954 13183 -20261 -21806 -25815 -29896 30666 -3238 4069 -28362 -18932 14028 -2568 27412 24126 -545 -7011 -17244 17150 26096 -1367 -591 -22781 ] ]
-decrypted str: [lLGctxmn3jCTEwSsFKyB8Q5D0paOVSnhD6s6AQsA96tMAjdd3MQ0AUMKiXwdPTtqYX]
-text_hash:85.5303]
-59: [encryptedText struct:[charReplaceEncryption struct:
-	pairs_count: 6
-	encrypted_str: [D2fwLYPIs2wlvVhq] ]
-decrypted str: [D2fwLYPIs2wlvVhq]
-text_hash:91.875]
-60: [encryptedText struct:[cycleEncryption struct: 
-	shift: -78
-	encrypted_str: ["d#$xc*] ]
-decrypted str: [pT2qrF1hxN cpaqW]
-text_hash:89.625]
-61: [encryptedText struct:[intReplaceEncryption struct:
-	pairs_count: 62
-	encrypted_str: [19626 -28029 -4851 -13654 25555 -5509 14567 -25431 -21904 761 4133 -15419 -13520 4331 -11331 -25064 8703 -22309 3484 -32261 15011 -23450 -17679 -17701 7137 22842 -29834 -14505 18867 15482 -1915 5725 -12548 26001 -7929 13006 20491 -26130 20342 31355 -25369 24474 15935 -6122 28804 -28164 1581 -28029 -17706 5065 -27523 -2695 14382 20333 -20397 -11249 10407 -17464 7013 29274 -1983 5097 ] ]
-decrypted str: [flzZ tV3PrirGrdILB9jRrT UPES4gIjAhiLLdLyD51ktc4lM0xByqJsdlihC2]
-text_hash:86.9194]
-62: [encryptedText struct:[intReplaceEncryption struct:
-	pairs_count: 31
-	encrypted_str: [-31386 -22512 -18490 9863 -14025 27497 2983 -29971 18469 29445 21833 -16768 -4451 -20871 -7943 14658 10819 17421 -14226 -32553 -18645 19570 1601 -7434 278 21990 14794 -8549 943 -15266 11323 ] ]
-decrypted str: [NiUQnAr7k3 xNdYipWp0idjUoMIbg00]
-text_hash:86.7097]
-63: [encryptedText struct:[cycleEncryption struct: 
-	shift: -15
-	encrypted_str: [FA3]GH^%f*Ybc7_A>8&(jdCY4*b;SB<&5]_hY<2<CBZei*WS\;4S#VYaJeU8gC$E_Z6H#g>R>U8DfE%?2] ]
-decrypted str: [UPBlVWm4u9hqrFnPMG57ysRhC9qJbQK5DlnwhKAKRQ itx9fb kJCb2ehpYtdGvR3TniEW2vMaMdGSuT4NA]
-text_hash:86.1084]
-64: [encryptedText struct:[cycleEncryption struct: 
-	shift: -56
-	encrypted_str: [-"+=*{?~63)~y2ABx;=26@x	, 1A:68h",|8] ]
-decrypted str: [ReZPGcub3w6nPHkPa61VjHOMyPz0suIjJF9nQCxS0AdXiyMrCKnUp GWZd4pI]
-text_hash:86.2131]
-65: [encryptedText struct:[charReplaceEncryption struct:
-	pairs_count: 2
-	encrypted_str: [si6zTjw QgCq1Ykp9Zk6cnuT9cgw63] ]
-decrypted str: [si6zTjw QgCq1Ykp9Zk6cnuT9cgw63]
-text_hash:88.6333]
-66: [encryptedText struct:[intReplaceEncryption struct:
-	pairs_count: 87
-	encrypted_str: [4080 -16341 -17836 -5163 14304 -4566 -6725 -27305 2751 -3703 -31829 20824 -12215 15813 10342 -9834 -2560 11128 13077 -7777 19613 -7650 -19552 22055 -32207 -10699 -8146 5951 -17629 -18040 -10598 19219 31154 4333 14055 12690 32535 7329 -14616 -30250 3626 -13677 -9427 24178 -30632 -31853 14344 32342 12043 -5347 -8203 31655 19770 -27755 20942 20331 -5687 12795 -6486 -23317 27523 -17085 -4099 -6859 20016 -22812 -26937 -12985 -15483 -8785 22299 20910 -22463 -19896 12320 12439 -18982 -6104 12013 -6940 21317 3810 -8053 -24449 8822 12888 -4119 ] ]
-decrypted str: [q5KLiSmDnt0SmMd4Ueoa8leq3W8Z3eUqgD ztwaRZjJl8XpZ M0e7lD0hL9hY1IeDSM8nXWmeFGjA5jIQsWXOz5]
-text_hash:84.8736]
-67: [encryptedText struct:[cycleEncryption struct: 
-	shift: 53
-	encrypted_str: [!Uj+
-	z()!i%j*}U"v#|
-+] ]
-decrypted str: [li 5vMUhThcQEstlM4p5LeuH ihdmAnGUvKnhFE A]
-text_hash:86.925]
-68: [encryptedText struct:[charReplaceEncryption struct:
-	pairs_count: 0
-	encrypted_str: [A] ]
-decrypted str: [A]
-text_hash:65]
-69: [encryptedText struct:[charReplaceEncryption struct:
-	pairs_count: 1
-	encrypted_str: [h6euAWERbQc] ]
-decrypted str: [h6e4AWERbQc]
-text_hash:81.0909]
-70: [encryptedText struct:[charReplaceEncryption struct:
-	pairs_count: 6
-	encrypted_str: [LyFM4YSfssa7j] ]
-decrypted str: [9yFM4YSfssa7j]
-text_hash:87.6154]
-71: [encryptedText struct:[intReplaceEncryption struct:
-	pairs_count: 58
-	encrypted_str: [-3148 -13694 23154 27293 -28954 7656 9872 13730 -32387 29742 -526 -12980 -8990 -13381 -7590 12293 -15654 3962 -26730 -29719 -4973 2600 -5427 28304 18987 -10357 27103 -9549 -14235 -6070 -17145 -17384 -19765 6008 9908 16816 -19104 19779 -2222 14044 16753 -2749 -31704 7763 16638 26240 20055 983 30202 26092 4031 25228 28692 -1396 -12004 14911 -11754 15099 ] ]
-decrypted str: [rvxI4381ihZiedK Z5913EVqPH0SKzZb4uS7xZ8Of59uhSDfULdWn0kcOu]
-text_hash:83.2241]
-72: [encryptedText struct:[intReplaceEncryption struct:
-	pairs_count: 90
-	encrypted_str: [10665 -14899 24872 27046 -29187 -12047 -32713 11323 -21977 5131 25143 -24021 -3480 -22717 -4135 23742 28831 -26793 29024 32587 32548 -346 22300 7484 -5511 -30767 21546 -23312 3060 29961 -6074 13724 -17706 18798 8003 -14125 6750 8057 -2803 -15228 13187 -10428 -6481 -23061 32389 -10617 680 28452 28124 -3063 -4497 -4864 29358 17802 -30148 23846 19803 24165 533 22862 21358 27227 3819 -29115 -19511 -20946 22294 20006 -12890 -13277 -27990 -32471 -23705 31063 -22765 -24084 -12322 10682 4368 -16966 7618 32638 -21831 -28560 17673 -19212 28054 -28060 4952 -4181 ] ]
-decrypted str: [UhCJT97jnbEZjMBIDCZ6PVPUxtN44LkW2YDS7KbuWQreD4VgDSjtO0ljB0mEUHATDeLIXXaROC5pD1EfSYHE64WG i]
-text_hash:80.4889]
-73: [encryptedText struct:[intReplaceEncryption struct:
-	pairs_count: 6
-	encrypted_str: [8410 -4560 -31638 3338 25270 -28250 ] ]
-decrypted str: [i1FtSr]
-text_hash:89.5]
-74: [encryptedText struct:[cycleEncryption struct: 
-	shift: 9
-	encrypted_str: [R\}`SyMu}PrBZK{]rZ)w|xm_nPcAO:bKSun?W]w`TbuK~L{N;b@wl;J] ]
-decrypted str: [IStWJpDltGi9QBrTyiQ nysodVeGZ8vF1YBJle6NTnWKYlBuCrE2Y7nc2A]
-text_hash:86.6552]
-75: [encryptedText struct:[charReplaceEncryption struct:
-	pairs_count: 1
-	encrypted_str: [HgfoBtuomQ] ]
-decrypted str: [HgfoBtuomQ]
-text_hash:98.8]
-76: [encryptedText struct:[cycleEncryption struct: 
-	shift: 26
-	encrypted_str: [^b] ]
-decrypted str: [DHjf8We73Cg2a93TqGyIUYhnsGLiYQ7zv]
-text_hash:85]
-77: [encryptedText struct:[intReplaceEncryption struct:
-	pairs_count: 71
-	encrypted_str: [8952 28845 16648 -26396 20842 -11086 -18168 -10558 -15706 -22038 -29023 31067 -19776 29860 -18851 -22457 -13345 -6127 -30158 -27630 -24745 16215 -17730 -30847 9152 23836 -14125 11822 -31826 10591 -8633 -22875 -26100 -24753 -16504 -5259 29696 -1905 -15817 13989 8824 -12073 12288 -10952 17787 -6564 -642 4441 -12691 1968 9578 -4669 18182 -8152 -2749 27333 15683 15893 6387 16624 26483 30521 26517 383 5768 -22755 27891 -30072 -24660 -20694 16684 ] ]
-decrypted str: [itxtlvO0HDexyllzlbfJtm6w15FPFiFZKaq7FeekSsSoOcY0obSQzVnzX2nDh2C4c40Qgma]
-text_hash:90.338]
-78: [encryptedText struct:[cycleEncryption struct: 
-	shift: -69
-	encrypted_str: [25 04/ -)[mk[}(~$'*+1] ]
-decrypted str: [wzeuIDFyterPMnQ 20 BbmCicTDlZopvZ]
-text_hash:89.6061]
-79: [encryptedText struct:[intReplaceEncryption struct:
-	pairs_count: 17
-	encrypted_str: [-10621 -5913 -26067 11496 30715 -20012 31424 30882 -13845 -22186 2001 25082 -15974 -3680 -17733 3747 -32212 ] ]
-decrypted str: [fbYq4AN3ZaxWOuC59]
-text_hash:83.2353]
-80: [encryptedText struct:[intReplaceEncryption struct:
-	pairs_count: 77
-	encrypted_str: [-31955 -10451 5597 19734 131 -25170 12048 16924 -28851 -5685 20671 -28296 -4138 -15457 -9088 15660 10550 4386 32030 -23601 -19265 -25073 19721 -29247 23143 1077 15685 -89 -10866 -26190 -25375 22713 28894 -19779 9679 -3743 20585 21726 13180 24501 -16727 -31685 28972 11903 -14375 -12883 27562 -3825 -8498 26824 5341 5004 1750 -7706 -24243 24893 26139 24209 -7964 15272 -1981 32195 5217 -5855 -20351 14895 -9599 -32534 3853 3580 24735 -12874 4663 -11829 31796 23055 -24713 ] ]
-decrypted str: [bpdKKl9QNd883J8lC woIbn9DOmD D4l2g5MDaAomHvpoCJZKfnqrJx5wUHEvKZx12hBbS1xxwVU8]
-text_hash:84.5065]
-81: [encryptedText struct:[intReplaceEncryption struct:
+	encrypted_str: [26240 -2230 31730 -9441 5438 -26257 -25193 -14001 -9822 16976 14991 -17112 -24302 -12041 -29160 15691 26022 22021 -11314 -14861 16562 4428 132 -1208 -30064 -9484 22633 21288 -25782 -13316 -19818 457 17221 11911 23783 22659 -14346 -1411 -24110 8599 -17203 23648 24254 24030 11606 27861 -25815 -27907 17115 -4361 22766 -31859 66 -9870 32467 -29999 -19355 22332 -8712 20397 -23752 4238 -11914 26237 16148 11868 ] ]
+decrypted str: [mV3 oHTpwFMR77NLaJjZurVTkgCGC94Z240qI1QdFA6JGSsQzMP3cITvZw BCcyDdF]
+text_hash:81.303]
+7: [encryptedText struct:[cycleEncryption struct: 
+	shift: 96
+	encrypted_str: [4ALTFW:$H-&UU] ]
+decrypted str: [Taltf507wZDhMFuu]
+text_hash:89.0625]
+8: [encryptedText struct:[intReplaceEncryption struct:
+	pairs_count: 89
+	encrypted_str: [1435 -20284 -4502 16660 3482 9604 21994 30661 -18117 -23317 -26652 -28875 -5304 30035 -5388 -27768 -31673 -21722 6955 -1079 7531 -10078 -27020 -28761 31694 -29260 -9588 26869 -3536 -19259 21513 30666 -6776 -15756 14559 29474 -6153 -28983 -5401 8497 -19533 714 -20378 7931 30749 -25767 -19838 -925 -14721 19884 30763 -7191 9805 3742 -3184 -24036 7249 -12773 -29935 3712 735 -8422 1611 26727 8589 16169 -9335 2435 19953 18031 -21836 -32348 18744 23320 -24418 16725 30321 -11489 -16968 15599 8394 13794 8407 -14568 -15232 -27545 -5837 -7984 25217 ] ]
+decrypted str: [LF ro1LDm1XvGEPhCtp4dXjMU 1OGqXp79Ss7D5tE2ZkEOAegZhuWzeQJeFnGCOKIEbPhdgUffcS4M8jLmMHX2yEe]
+text_hash:83.8989]
+9: [encryptedText struct:[intReplaceEncryption struct:
+	pairs_count: 11
+	encrypted_str: [30349 -18901 -31293 -19637 -7412 26322 -6107 4709 19852 18910 28036 ] ]
+decrypted str: [CfPN7Sza kx]
+text_hash:85.7273]
+10: [encryptedText struct:[charReplaceEncryption struct:
 	pairs_count: 57
-	encrypted_str: [19368 -21877 17900 1465 16384 -3650 6998 -292 11395 -24906 -18200 29294 -5659 3482 -21667 -14333 -1225 10227 -26359 -27761 16301 -24873 2492 11073 -32410 28526 -31670 -23464 -12652 -7644 32686 6715 -29522 -14950 -24588 19629 14168 15178 19337 25562 23039 1136 22088 17379 4617 -32347 -29721 -29376 -22120 -23313 8397 26948 17349 10889 -27515 -15062 6647 ] ]
-decrypted str: [B8 VfY0E7EZ1wIDuAvds8KpJDzbVv1788f3ne03iMZiiHULfpYJvI8cjF]
-text_hash:82.2456]
-82: [encryptedText struct:[cycleEncryption struct: 
-	shift: -79
-	encrypted_str: [&+~] ]
-decrypted str: [mleuzeSM]
-text_hash:102.25]
-83: [encryptedText struct:[intReplaceEncryption struct:
+	encrypted_str: [OBz22m5J SdPjgZyxGtqesD6LlKqlsP 3m 5JdLU5ZJnfGVLloaAPOFz n1vRPETcMVU1GO6FwqTalDwLO6yCI9K89fW] ]
+decrypted str: [ZJWOOx5r SYHGgBH3AaeesUPF41e4sH hx 5rYFU5BrnRAVF4oaTHZIW nGmOHETcUVUGAZPINeTa4UNFZPHJIT1LTRW]
+text_hash:79.9674]
+11: [encryptedText struct:[intReplaceEncryption struct:
+	pairs_count: 29
+	encrypted_str: [-3857 -16977 2929 -22287 -8877 17460 -9904 15407 -150 28543 9486 18249 1675 13479 14024 -18940 19717 19770 -13036 14869 -858 18213 28272 2850 4418 -21317 6129 -28024 22102 ] ]
+decrypted str: [SKxZneZ2DNFD5Mwvd3sokv0geZW4X]
+text_hash:87.6207]
+12: [encryptedText struct:[charReplaceEncryption struct:
+	pairs_count: 9
+	encrypted_str: [XF35Wg4QhZF6Ncoy9Vj56RDSrX xvu5r 8v5lxUEux] ]
+decrypted str: [NF35Wg4QhZF6Nco79Vl56RDSrNWxvu5rW8v5lxUEux]
+text_hash:84.7857]
+13: [encryptedText struct:[intReplaceEncryption struct:
+	pairs_count: 91
+	encrypted_str: [8968 -19155 23270 15355 10550 20599 31943 -21182 -12163 -16673 -1455 -17222 -23809 -12301 11163 -32599 9142 145 31899 -18367 22817 14394 -26789 -16063 -8185 -9200 -3682 -18312 -19469 31037 27529 -10502 -20885 18031 -27914 22432 5863 -28739 1250 -6301 20123 32562 9244 -3687 20260 -12361 -3519 -3366 -12217 -4387 -21734 10600 10006 -15756 27304 -30947 -24956 23621 16275 -11658 21890 11036 10607 -31763 -3701 15460 -9331 2161 -13279 -8082 28627 6843 -8288 -27665 -29612 -20795 25508 -364 -24162 -19476 -4752 -13128 -8877 -27514 -28885 -14341 7073 -21074 -23488 -9420 -32733 ] ]
+decrypted str: [zETYWB6gWVKkqEez1GRHZYR5vUlaPJYmnRihrlznghHGWUdWA6Dy2uCxmWG DEv3wMjY0Rjp0Z57Ui3snEZp8BXswDC]
+text_hash:86.967]
+14: [encryptedText struct:[cycleEncryption struct: 
+	shift: -40
+	encrypted_str: [x%,M!D
+HN1M)&B9>?QD,N'FINFNG9(IM''1%AP.>Fx' ] ]
+decrypted str: [ MTuI3l2pvYuBQNBjafgylTvOn8qvnvG9oaPquOOYMixB79Vfn OH]
+text_hash:88.9811]
+15: [encryptedText struct:[cycleEncryption struct: 
+	shift: -44
+	encrypted_str: [CB] ]
+decrypted str: [on]
+text_hash:110.5]
+16: [encryptedText struct:[cycleEncryption struct: 
+	shift: 44
+	encrypted_str: [n|wt"aLt~|wp] ]
+decrypted str: [qBSPKHfcv5 flHRpPKDbVsT]
+text_hash:85.8696]
+17: [encryptedText struct:[intReplaceEncryption struct:
+	pairs_count: 74
+	encrypted_str: [-26654 -27248 -31503 13100 -30556 -30772 18005 -184 14395 -9599 19523 21540 -12417 19969 2817 -13508 11687 -88 17019 8748 9012 18843 -25816 -6246 -12551 1853 14197 -29762 4971 18287 14889 -21684 23806 16154 -8585 -6751 -14619 9419 -6936 32543 32587 12586 -11453 -12598 -213 -8637 -26107 11474 24042 23680 20221 -32482 -23013 27172 -5960 -2797 29025 8236 -32559 1228 26522 15097 -20457 17560 31250 3725 10808 16630 -19624 3871 -16363 -19805 -16311 4951 ] ]
+decrypted str: [IY8FNoL DrRxk53SD1JZR4pGEClebj0UfgA4FlcgO4N88NZJNGICJ8joJDBWVKObZoeCJqUvtF]
+text_hash:81.3784]
+18: [encryptedText struct:[charReplaceEncryption struct:
+	pairs_count: 29
+	encrypted_str: [p4MEiy9Pjqj8SaI7YX1sILCkB5yVFTb4UWHcvO4NemT9wBbuwbXeXAzwC8pf1zi] ]
+decrypted str: [p4NE6y9djqj8SaIaYX1sIwlkB1ygFGb4UWYcAX4Ne0G9kBbukbXeXRzkl8pd1z6]
+text_hash:86.5714]
+19: [encryptedText struct:[charReplaceEncryption struct:
 	pairs_count: 38
-	encrypted_str: [-4300 -12424 7976 -31728 -22481 -31138 -12054 9512 -29225 -26201 22635 14133 27178 -12488 -21487 26468 10842 21933 21784 -27556 -14192 30831 -22733 7555 -17684 -13462 20342 1467 -31805 26119 -30809 -3337 13694 -22834 30469 23981 -21204 18415 ] ]
-decrypted str: [Soi3TqQqJYEqm2s5A1jmomyEqQKQwluoKLoB e]
-text_hash:89.9474]
-84: [encryptedText struct:[charReplaceEncryption struct:
-	pairs_count: 6
-	encrypted_str: [9KEXvutPYTAJhbSvcLHS3dwLMJsFjATplvkPZPEXGcEWnwpA] ]
-decrypted str: [9KEXvutPYTJeFbSvcLHS39wLMesFjJTplvkPZPEXycEWnwpJ]
-text_hash:90.4167]
-85: [encryptedText struct:[intReplaceEncryption struct:
-	pairs_count: 51
-	encrypted_str: [-30741 -1029 -26768 21742 -2327 24357 -27435 10293 31786 -3819 -11986 19978 31025 15049 -22719 29226 21705 20819 32426 -17379 23988 17458 -14161 16236 17280 17573 13630 -22583 6248 12564 28941 8274 11534 -30594 -2752 -23561 -6238 -30188 -13269 -7220 -1240 7513 -20010 -2982 22561 22806 26243 11499 -21911 -6867 -5881 ] ]
-decrypted str: [mIz4NYdiVEShmKA7EAidvxrP ISW4pvp76qU2DaUh4bELLInj3C]
-text_hash:84.3725]
-86: [encryptedText struct:[cycleEncryption struct: 
-	shift: -38
-	encrypted_str: [ $%P&/
-<=->@
-RC;..?F.,<N.,;G*H?1T@
-<FK] ]
-decrypted str: [FJKvDLU0b1cCSdf50x8iaT5TelTRbtTRaBmPneWzf0b9lq]
-text_hash:86.1957]
-87: [encryptedText struct:[charReplaceEncryption struct:
-	pairs_count: 17
-	encrypted_str: [GEf6N0i8qpgU0LafuoUsH] ]
-decrypted str: [cES6N8u8qpgU8haSuoUsH]
-text_hash:88.8095]
-88: [encryptedText struct:[cycleEncryption struct: 
-	shift: 11
-	encrypted_str: [dZ] ]
-decrypted str: [YOu mkr2YH5LOmSfL8]
-text_hash:82.8889]
-89: [encryptedText struct:[cycleEncryption struct: 
-	shift: -69
-	encrypted_str: ['k'm
-+&k/2$/0m3!	so] ]
-decrypted str: [l0lI2OpKkLJ0dRtwitu2xfNT84Edbw6vDobFaBpvk8CwZ64fyye5M4VT5x]
-text_hash:87.3793]
-90: [encryptedText struct:[charReplaceEncryption struct:
-	pairs_count: 32
-	encrypted_str: [04L81tP8Zn2PKI2bJ0VbW1WguwgD528a6] ]
-decrypted str: [0r981MO8YnCOKKCb00VbW1WiGmiE5C8an]
-text_hash:77]
-91: [encryptedText struct:[intReplaceEncryption struct:
-	pairs_count: 90
-	encrypted_str: [13591 -30023 24183 12720 20584 -18102 -5455 9080 3666 -29934 15206 31198 -30809 -24847 3003 24353 25202 -5207 19280 1377 -3582 16821 -5995 28234 185 12360 10346 -5164 18254 3617 -20039 31845 -26407 -28624 -20971 26944 18809 -26427 -29511 -10293 -23594 18462 -11862 11131 -6386 -8860 -30051 18816 18700 -10772 -12575 -17650 -26718 14197 10583 6234 26556 -11838 1069 -20725 -8222 13797 -21648 -1862 -14827 22915 25082 3981 29255 28338 -6313 5660 -18736 14592 -15977 7645 5731 19506 26460 24431 -24033 -18883 -25987 14783 -4687 -15404 21016 -10898 5525 -10682 ] ]
-decrypted str: [nt v3dGvq32VsJ1vTVWFVovH57D7bcTzE36HfJaHLcAbUAGNvCro2V862K0dW2NA4RfiArYkEyuw9akBNK2MF9RGQZ]
-text_hash:81.7444]
-92: [encryptedText struct:[charReplaceEncryption struct:
-	pairs_count: 40
-	encrypted_str: [LQMpwRvMm5u72nknVKqennLP4mjf7nuScffJ8MttOYxQjSdeAC] ]
-decrypted str: [cQHzBRMHmpuI2GkGVyeeGGcP7mjRIGubURRJ8HvvOY2QjbueVl]
-text_hash:88.48]
-93: [encryptedText struct:[charReplaceEncryption struct:
-	pairs_count: 0
-	encrypted_str: [cL2A7fErIwEYLl4vNujJ1 2QmdrZGnYT9Xrbc8DWBgSmAWSmoc7] ]
-decrypted str: [cL2A7fErIwEYLl4vNujJ1 2QmdrZGnYT9Xrbc8DWBgSmAWSmoc7]
-text_hash:84.8039]
-94: [encryptedText struct:[intReplaceEncryption struct:
-	pairs_count: 94
-	encrypted_str: [7490 -17400 13487 -20891 -6992 -14232 -6496 4440 -11657 19643 13649 7102 -25764 -8788 -31511 -27802 -3719 -1280 -19522 13779 -23908 30467 -29985 -6500 -22666 2438 -16415 5659 -12192 8103 -7325 28065 23470 -26605 -25593 16478 -8070 -32090 -11850 -19728 -12448 -30969 -12627 -5444 25777 -11371 32288 -10710 20116 12765 3069 -3792 10465 -26917 -10293 20566 8288 6059 -6543 -3905 -18606 -13869 24160 4864 25060 -1434 -11426 16989 -757 -23277 30028 19563 -21479 17401 14118 4297 6029 13638 26354 -6622 26403 29422 22353 4100 -30263 -20708 24665 -21976 -14649 18121 6887 -488 -28516 31046 ] ]
-decrypted str: [ffcuK5ZRqT9GAgc4X3tHwLXXYxFrIrpXHCrsHrh7kpLUEYXCYojs gn0M4yvuZscBSDghVlBi8vX4qz2PStY8R6USDpmAQ]
-text_hash:88.3191]
-95: [encryptedText struct:[charReplaceEncryption struct:
-	pairs_count: 16
-	encrypted_str: [8DdQdBJfWCKQx2BTgt4Af7xpu4nrK5] ]
-decrypted str: [8DdQdBJlWCKQx2BTgt4LlZxaV4nrK5]
-text_hash:84.5]
-96: [encryptedText struct:[charReplaceEncryption struct:
-	pairs_count: 3
-	encrypted_str: [i1R9vSHo9apIowdOZgbqZd1OSMsL0PUqNJwiCdGIm7qLAEzATJ2TV] ]
-decrypted str: [i1R9vSHo9apIowdOZgbqZd1OSMsLmPUqNJwiCdGIS7qLAEzATJ2TV]
-text_hash:86.7547]
-97: [encryptedText struct:[intReplaceEncryption struct:
-	pairs_count: 16
-	encrypted_str: [-6538 -3858 -19993 -1809 -25455 23341 3823 -10898 27142 -16291 1075 -2715 -6177 -26943 26969 9228 ] ]
-decrypted str: [qLSbmuJVoqWfkWT0]
-text_hash:93.4375]
-98: [encryptedText struct:[charReplaceEncryption struct:
-	pairs_count: 14
-	encrypted_str: [NcFn8JiGX5hUTxg7xwvSfC7k gG2lT187EvanORiS0cJFsQaZj3cW9y7oc8I57Q Kli99 pYj] ]
-decrypted str: [NBFnSJiGX5hCT8g78wvS0C7  gG2lTeS7EvanORiS0BJFsQaej3B79y7fBSI57Q mli99 pYj]
-text_hash:78.8767]
-99: [encryptedText struct:[charReplaceEncryption struct:
+	encrypted_str: [DL9SUu6CvA003OiUA5beAFMjZihq8UHKFPDxhG9LegU] ]
+decrypted str: [7LNSUu6CvAVV3REUA5meAFujZENqdUHKFq72NtNLegU]
+text_hash:82.5581]
+20: [encryptedText struct:[charReplaceEncryption struct:
+	pairs_count: 77
+	encrypted_str: [PUm58dnMggI3yeWP8j yBIprd4XTcec28z6cLtZ3IF3gSY5YidwUWUlaVg30uc9zKcMwEJwmozBhvFfMSKGOF1Xya] ]
+decrypted str: [wtmWidVwggIoeVwwiL e7IBpdbXTtVt4i4CtD4aoI5ogzSWStd9twtczLgoFut94Ktw9bZ9mV47Yh5fwzKix59XeA]
+text_hash:91.4545]
+21: [encryptedText struct:[cycleEncryption struct: 
+	shift: 46
+	encrypted_str: [y|dr}#o"] ]
+decrypted str: [KaNjWZ6qDOVZbuAtZ]
+text_hash:88.7647]
+22: [encryptedText struct:[charReplaceEncryption struct:
 	pairs_count: 12
-	encrypted_str: [AfCSQhPUMVVz50jiU9UP2gP2rWKYmACXQePHvCBhvuP] ]
-decrypted str: [AfCSQhPUMXXz50jiUNUP2gP2rWgYmACXQePH4CBh4uP]
-text_hash:82.7674]
+	encrypted_str: [HebGtRsAhTtkhiVX7dj6jZXoJg6gtJZaYbQr2i1i tCpNxkRLFU4CS] ]
+decrypted str: [HybGtRsAhqtkhiVXYdj6jZXhJg6gtJZaYbQr2i1i tR8ExkRLFH4RS]
+text_hash:88.9074]
+23: [encryptedText struct:[intReplaceEncryption struct:
+	pairs_count: 31
+	encrypted_str: [-30267 -31010 17344 15543 21159 -17898 -26628 25654 19090 -29911 -2838 -19776 -548 5307 -4450 22722 25974 -5071 20511 -21894 8116 17793 -29398 -22414 1273 -17158 -6039 -25330 -14514 -6517 26627 ] ]
+decrypted str: [wUU68sNfdmQYbq2 tHygTiWQDwRDWgW]
+text_hash:88.6774]
+24: [encryptedText struct:[cycleEncryption struct: 
+	shift: 29
+	encrypted_str: [] ]
+decrypted str: [wgh]
+text_hash:108.667]
+25: [encryptedText struct:[intReplaceEncryption struct:
+	pairs_count: 25
+	encrypted_str: [26932 1229 16373 19548 -19564 -4644 7714 15132 313 23577 -27963 16144 -17980 12269 2575 -16416 21006 -28151 11875 4413 24911 882 14445 423 17896 ] ]
+decrypted str: [QNo97VBLg4A5vBhE LFZbxs7d]
+text_hash:79.84]
+26: [encryptedText struct:[charReplaceEncryption struct:
+	pairs_count: 5
+	encrypted_str: [PRapTFZ j9VX86vzbH88TIjb8hQElsM0] ]
+decrypted str: [PRapTFZ jCVX86vzAH88TIjA8hQElsM0]
+text_hash:80.5938]
+27: [encryptedText struct:[cycleEncryption struct: 
+	shift: 26
+	encrypted_str: [|\p\] ]
+decrypted str: [bBtlVBfSJklgw2oCV6U6b VQvmDCFz0PaC 5cpUUKeaffxQ0CIbPS7DlsgY7O6TXF4ZSsSKb8Wrkrfs6YESQKv aL9gzaavQbu]
+text_hash:85.7347]
+28: [encryptedText struct:[intReplaceEncryption struct:
+	pairs_count: 88
+	encrypted_str: [28591 -32493 -15399 32646 28623 3626 5239 -7440 6717 -11373 28535 5584 -2580 -26390 14119 -2475 30303 19664 -20917 -31497 21974 8727 29690 22013 -5658 -30485 8479 14625 30579 -20372 17173 26403 12670 -30994 -6487 -24243 5399 -1249 1084 12115 -12623 29618 17698 17565 -29540 -951 15089 -32004 18712 26939 2033 -24850 -29870 -1045 29930 -2761 -31531 -27126 11864 31816 18036 -3731 -7317 -2062 30810 18963 -26305 3441 -15053 7546 15556 5091 -28371 486 22655 -25144 -465 4976 8386 18246 31915 -22348 26164 -30723 9374 -9442 32051 10611 ] ]
+decrypted str: [MUoe7Ef baiLQ1C1GClzm 9GlPzpgho5 NggruqCGJluHWsmzOWUW5AhR9G0q6aARrRgUgRAYd4G v4HiZBe3 vTA]
+text_hash:83.8864]
+29: [encryptedText struct:[cycleEncryption struct: 
+	shift: 88
+	encrypted_str: [ =;>FPE=CIx
+?/	*:2 .>,/0<;!BQ<&B2;J2%2	2+:
++*.!((->	PQ):BOQ?C9] ]
+decrypted str: [Hecf7C7nxme7kq 2BD3gW1Rb3ZHVfTWX78dcIjydENjZcrZM7Z41ZSb2SRV9IP5PUf1CxyQbj00wy9gC9kD6a]
+text_hash:82.1294]
+30: [encryptedText struct:[intReplaceEncryption struct:
+	pairs_count: 6
+	encrypted_str: [-29488 26271 17687 -5559 -5346 18691 ] ]
+decrypted str: [d0Ht0i]
+text_hash:81.5]
+31: [encryptedText struct:[cycleEncryption struct: 
+	shift: 0
+	encrypted_str: [c3flwNsOny8ZDhLIjoGtItFS 02s9HziHOCbz41XB6XdlIUF8B8N4MFaTFDZmbh3YSdxWcuxhpJD9Egcfn2g9EsZj5] ]
+decrypted str: [c3flwNsOny8ZDhLIjoGtItFS 02s9HziHOCbz41XB6XdlIUF8B8N4MFaTFDZmbh3YSdxWcuxhpJD9Egcfn2g9EsZj5]
+text_hash:84.9889]
+32: [encryptedText struct:[cycleEncryption struct: 
+	shift: 6
+	encrypted_str: [jKj>ZP:;krKo_R\k]gH\vPGYNY\L|g[&t`8>7<px^VtMQGIZh}p[>&H^<kyk6HI?IN=O9L?^yzJh;l<kSs6X|] ]
+decrypted str: [dEd8TJ45eylEiYLVeWaBVpJASHSVFvaU nZ2816jyrXPnGKACTbwjU8 BX6ese0BC9CH7I3F9XstDb5f6eMm0Rv]
+text_hash:81.3793]
+33: [encryptedText struct:[charReplaceEncryption struct:
+	pairs_count: 13
+	encrypted_str: [urMh2KuOPjc1KghRkc3lzIY8!] ]
+decrypted str: [urM72zuOPjX1zg7RkX3lzIY8A]
+text_hash:87.9167]
+34: [encryptedText struct:[cycleEncryption struct: 
+	shift: 65
+	encrypted_str: [055y'&ztz.r	#s-;a)$&+34a/#7**696z8%35w$(.] ]
+decrypted str: [otFtZ8fe9YJXL39KKm1AHbC2LlZQLPz hcBejSrsO nAbviWQiuxu9wdrt6cgCm]
+text_hash:87.9206]
+35: [encryptedText struct:[intReplaceEncryption struct:
+	pairs_count: 53
+	encrypted_str: [-16027 -12449 -19923 12718 -20826 -22594 23182 4439 -18597 -22587 30515 3468 5848 -15925 -19435 7686 1732 11389 24005 -11306 -12143 17672 18065 1879 24761 -1617 9853 2685 2622 26752 22883 19362 14303 -29808 -688 -6524 -19634 22494 30682 27303 32674 28429 -1996 -27013 12503 11336 -19328 14234 -10042 -28091 -29840 -22186 -10420 ] ]
+decrypted str: [tUVcU3fqUgLW5jvsf1ZJUZF5JzWHx672X3eP3sgXJ1TLiobwmbeh0]
+text_hash:86.4151]
+36: [encryptedText struct:[charReplaceEncryption struct:
+	pairs_count: 45
+	encrypted_str: [ZxehTwfyrYQIDLYYFLkSzXYe73XlpbjpJwFB2V sTZavK9tpTMhqHeDNeA8DKo4sVI] ]
+decrypted str: [Ax36TltyrYQwDLYY7LIUzHY3B3HQCbjCJl7KyV sTAGvF9jCTM6qh3DN314DFO3sVw]
+text_hash:81.0303]
+37: [encryptedText struct:[cycleEncryption struct: 
+	shift: 79
+	encrypted_str: [1=D0H(#?7G2G'$] ]
+decrypted str: [bnuayYTGphxcxXUMAG1 NDSaEk7km2WzooIXnCCNS9Yp6RcExaO]
+text_hash:87.9804]
+38: [encryptedText struct:[cycleEncryption struct: 
+	shift: 30
+	encrypted_str: [OhdsuQbp] ]
+decrypted str: [tq1yJmzFUW3DRpdrb7A9vDZGhwR5OBLh]
+text_hash:86.8125]
+39: [encryptedText struct:[charReplaceEncryption struct:
+	pairs_count: 2
+	encrypted_str: [2hpC NQzXW ] ]
+decrypted str: [2hpC NQzXW ]
+text_hash:77.5455]
+40: [encryptedText struct:[charReplaceEncryption struct:
+	pairs_count: 6
+	encrypted_str: [tgHRDG92i] ]
+decrypted str: [tgHRDS92i]
+text_hash:81.7778]
+41: [encryptedText struct:[cycleEncryption struct: 
+	shift: 80
+	encrypted_str: [ #B'G!GC(&* J] ]
+decrypted str: [PM41SrMWwQwsXVZPz]
+text_hash:89.3529]
+42: [encryptedText struct:[cycleEncryption struct: 
+	shift: -34
+	encrypted_str: [*2K,MC@@7B.$+*@ D!W?M),+/1$?%#X(2*44'7T+)C7HSX2$~DLC3] ]
+decrypted str: [L8TmN2o6ebb5Yd3PFMLbBfCyaAoK6NMQSFaGEzJTLVVI0YvMKeYjuzTF fne494U]
+text_hash:82.5156]
+43: [encryptedText struct:[intReplaceEncryption struct:
+	pairs_count: 4
+	encrypted_str: [-26895 23464 -3830 -25177 ] ]
+decrypted str: [gtcc]
+text_hash:104.25]
+44: [encryptedText struct:[charReplaceEncryption struct:
+	pairs_count: 29
+	encrypted_str: [HbY2rGcDnzcL3PRKPWNk26ah0Gsgc3FTdDUDh6fGFspFfgp5cbocgyspeVGpYji YbOdg5UUuhzJzYNK  XqG] ]
+decrypted str: [H5Y2mGhoBzhL6PRKPTNk27il0Gsgh6FT2oUol7fGFs1Ffg1Vh5ohgys1eVG1YjL Y5O2gVUUulzbzYNK  XqG]
+text_hash:83.7176]
+45: [encryptedText struct:[charReplaceEncryption struct:
+	pairs_count: 17
+	encrypted_str: [kZJLIsWGsawiTCLji uHGP4DOOmFTzQdyA1h2WWr7sKX4uglCJ4jy8VlTg2MQS1oqYEpTARZ2BW67ao] ]
+decrypted str: [kZqMIjWGjdwiTCMji uSGP4DOOmqTzedqNXhXWWr7jKX4ugkCq4jq8VkTgXMeSXoqYEpTNRZXBWT7do]
+text_hash:89.7215]
+46: [encryptedText struct:[cycleEncryption struct: 
+	shift: 8
+	encrypted_str: [:z~]TwiVi:Liw;A<z:KqaJ[]O`<=M_}Nu9AwT\S] ]
+decrypted str: [2rvULoaNa2Dao394r2CiYBSUGX45EWuFm1z9oLTzK]
+text_hash:82.5122]
+47: [encryptedText struct:[charReplaceEncryption struct:
+	pairs_count: 37
+	encrypted_str: [arJ8 6oSZwIQfy mWGVld5LAzkEOb2IkqrsAwPrvj9lzGtUAaPWmSFXr1zeayXvYpWyWJYq45] ]
+decrypted str: [ar48 6ayZwYwfw u0GVSdtRFzhEOl2YhqrsFwcrvj9SzGtIFac0uy70rkzeaw0vYp0w04Yq4t]
+text_hash:90.411]
+48: [encryptedText struct:[intReplaceEncryption struct:
+	pairs_count: 57
+	encrypted_str: [22657 17651 -31652 -3510 13463 -14789 11398 11203 -27300 26782 25700 -5627 -1368 5934 -3400 24632 22341 10539 24404 18526 1557 26867 14246 3219 9139 2286 12039 -25410 1581 18903 -6943 24237 3786 26939 -12040 -15519 12149 32125 -4317 17616 -6629 21382 11989 24770 27315 -24179 -16134 16888 -13641 8270 2647 -12085 -30399 16892 23902 11507 19177 ] ]
+decrypted str: [xAtLmsdDK5adCVAQcOei3n Nb 1ecmqJXVuinHW7L8ho1ScaEssHOCsYK]
+text_hash:86.2105]
+49: [encryptedText struct:[charReplaceEncryption struct:
+	pairs_count: 10
+	encrypted_str: [DGqpgUn2lyXb] ]
+decrypted str: [DGqpgUn2lyXb]
+text_hash:93.9167]
+50: [encryptedText struct:[intReplaceEncryption struct:
+	pairs_count: 6
+	encrypted_str: [-15606 -22820 -28412 -12605 16651 -27850 ] ]
+decrypted str: [SudWLb]
+text_hash:93.5]
+51: [encryptedText struct:[charReplaceEncryption struct:
+	pairs_count: 69
+	encrypted_str: [jSPhErf90aMu1yWsd CsET8YU5CNBczU6nbHPsOYByqC8m4juFM wT7oVGbuRKoU9zCV3oSBXib4Efm0T] ]
+decrypted str: [jS29v2q9WjpY1EWsa5csvTQglJcNuc0lNnIs2sYguE4cQghjYvp5dT7o5GIYlKol90c53oSuyiIhvqgWT]
+text_hash:89.2593]
+52: [encryptedText struct:[charReplaceEncryption struct:
+	pairs_count: 37
+	encrypted_str: [n0whAL7PV2QAg5XKBePoTkoVcTg GO36XzkxiqkcraNIcIq] ]
+decrypted str: [10whVI7PV2QVg5XKRePoNJoVmNgeGO36XzJQilJmVhUImIl]
+text_hash:85.1915]
+53: [encryptedText struct:[charReplaceEncryption struct:
+	pairs_count: 45
+	encrypted_str: [s2EKEFpcDSDpdIXzcLskvJGeHUCoT0fl9S6MxuY0mBxyhu0udBNKitX1lzneHBzPuEA18y9t9F2p9 ] ]
+decrypted str: [sHEaEwscDNDsaIX8cIsgvJUeH3C2o0fXNN6fznc0OBzUhn0naBNaitX1X8GeHB8anEA18UNtNwHsN ]
+text_hash:84.5513]
+54: [encryptedText struct:[cycleEncryption struct: 
+	shift: -12
+	encrypted_str: [:,%-'Nh7a<^KY,eH<f%Xlf`We>_m6:\\A[dBXFd5m<kBCK9i`7=] ]
+decrypted str: [F8193ZtCmHjWe8qTHr1dxrlcqJkyBFhhMgpNdRpAyHwNOWEulCI]
+text_hash:88.9804]
+55: [encryptedText struct:[intReplaceEncryption struct:
+	pairs_count: 58
+	encrypted_str: [14231 -23220 -3781 6600 16057 -8698 -28044 28712 17766 13477 -30086 29663 -30129 -17574 -20972 -5783 -19042 -22773 24539 -9674 28514 8261 -26211 -25472 -5224 5875 -28923 -28644 28817 -10150 -24285 10280 -603 4702 -15887 -17314 -3997 21603 11397 -18999 2312 14079 10664 -27818 29272 -10309 -834 10230 32453 -9063 555 28199 -802 -25657 2726 26741 12985 6570 ] ]
+decrypted str: [jAEPgGMM8KEz4aNSHDt qq1Wc4TKVOofm44DJNqOx4lyc0rULV5bj47u71]
+text_hash:81.6724]
+56: [encryptedText struct:[charReplaceEncryption struct:
+	pairs_count: 4
+	encrypted_str: [c Dew rDBjoumzMpFgvFtvr6LAJ5l69wdJLKUal] ]
+decrypted str: [c Dew rDBjoumzipFgvFtvr6LAJ5l69wdJLKUal]
+text_hash:88.8462]
+57: [encryptedText struct:[charReplaceEncryption struct:
+	pairs_count: 69
+	encrypted_str: [EyUpBQdFhG2oRBFFzNRPxcKGaZnpvMz9kryVfKAyqCVibAWLlNyUYgy fUxMG8U1wqVNatjA5eTfNPZ8AxZzPxH6seR0jK0O] ]
+decrypted str: [ K6pqfjahj5oRqaazNRXvEgjf7npvRz9DMKkDgAKQCki9Aj2lNK6hkKpD6vRjV6CfQkNfU6AhOpDNX7VAv7zXvfNEORD6gDO]
+text_hash:86.3958]
+58: [encryptedText struct:[intReplaceEncryption struct:
+	pairs_count: 86
+	encrypted_str: [-3677 -2317 21188 28423 -15075 -25434 -16649 3885 -22404 -23882 -21586 -24682 -15861 24273 22840 -21337 -13145 9861 -16471 -2243 -23656 8206 14275 -3926 -12542 -8090 -29267 13233 8789 11598 -5785 5111 9280 -17365 767 -5796 22736 -15883 30856 -32436 -6997 9269 -24351 -22859 775 -1512 21338 -12371 -24419 -27901 18154 17460 -19696 32428 13533 -32238 -8429 17033 13762 359 28630 -24791 -27298 5143 23379 -26532 32114 13347 -9647 -2565 -19090 -16645 -26064 -10674 26030 -25290 -12186 14600 -4893 28929 -13301 -19507 13621 -230 -19847 -5614 ] ]
+decrypted str: [4pw3g2hoOjHJLgzl3WZWUVYanFawZqs4QZ47YkuME unr5JrYHmRAk3WYbtXCWYqT3wSkZCY 8lz 5Z9JlZhE3]
+text_hash:85.7674]
+59: [encryptedText struct:[charReplaceEncryption struct:
+	pairs_count: 1
+	encrypted_str: [OCwcvyKlSHZQR5 oddomVIjdnjsYv0uhL3veydBqTygJCp9RBubxdtJzO vhi2A345gzfQZ0odS1] ]
+decrypted str: [OCwcvIKlSHZQR5 oddomVIjdnjsYv0uhL3veIdBqTIgJCp9RBubxdtJzO vhi2A345gzfQZ0odS1]
+text_hash:88.0921]
+60: [encryptedText struct:[cycleEncryption struct: 
+	shift: -45
+	encrypted_str: [9G] ]
+decrypted str: [ft]
+text_hash:109]
+61: [encryptedText struct:[intReplaceEncryption struct:
+	pairs_count: 4
+	encrypted_str: [-17525 19744 -1029 9092 ] ]
+decrypted str: [gCLz]
+text_hash:92]
+62: [encryptedText struct:[intReplaceEncryption struct:
+	pairs_count: 23
+	encrypted_str: [19756 7833 5959 4259 -25239 -8543 29979 22675 14793 11911 13758 -27869 -6978 -25506 17882 -30112 -27874 -24117 -29254 -25736 -8036 18756 26776 ] ]
+decrypted str: [FPQhAp0kv59Hct8bNEvl7Sy]
+text_hash:85.5652]
+63: [encryptedText struct:[cycleEncryption struct: 
+	shift: 72
+	encrypted_str: [7hh B}4!+<.h;1-~9 ! :!}B73] ]
+decrypted str: [o  XJNNz5lYcHtfP sieC6T9qXYXrYWP75MPRzoTUk8BPmqXNIbpN5vbA]
+text_hash:85.2321]
+64: [encryptedText struct:[cycleEncryption struct: 
+	shift: 18
+	encrypted_str: [Gy	ID~j[bGiHdy_G2kjChKCzc|YZY}y2[G`y}zFl_] ]
+decrypted str: [rs5gw72lXzIPt5W6RgtM5 YrX1V91phrQjGmpHGkgp Ir5Ngkh4mrZMn1It]
+text_hash:86.661]
+65: [encryptedText struct:[charReplaceEncryption struct:
+	pairs_count: 12
+	encrypted_str: [A2 5ZfNoaOuregm2hHT2rRws0juMxxd7xl0wzUWJJo0] ]
+decrypted str: [A2 NZfNoaOu4egm22HT24Rws0juLYYd4Yl0wzkWJJo0]
+text_hash:83.7674]
+66: [encryptedText struct:[intReplaceEncryption struct:
+	pairs_count: 32
+	encrypted_str: [14167 -26616 -30050 -8744 -30271 30145 -28351 9361 18325 -24865 -8795 4786 -30882 -13221 13521 7783 13553 15913 -16149 14152 -23672 -27284 -32424 -4017 -11246 -2060 20303 8715 -7142 8695 21737 7024 ] ]
+decrypted str: [VU HNMldP9WmFbppv2uX89i0slxYiyXb]
+text_hash:88.9375]
+67: [encryptedText struct:[charReplaceEncryption struct:
+	pairs_count: 13
+	encrypted_str: [l78rYlibPWydVALk1OHSOaT6Ll] ]
+decrypted str: [E78pYEibPW3dVgLkUOHSOaT6LE]
+text_hash:81.5769]
+68: [encryptedText struct:[cycleEncryption struct: 
+	shift: -38
+	encrypted_str: [QPPS1(&&] ]
+decrypted str: [wv7CAvyWNLL]
+text_hash:89.0909]
+69: [encryptedText struct:[cycleEncryption struct: 
+	shift: -90
+	encrypted_str: [kyn] ]
+decrypted str: [ESH]
+text_hash:74.6667]
+70: [encryptedText struct:[charReplaceEncryption struct:
+	pairs_count: 46
+	encrypted_str: [YjaubfRt29E6JwaLGBUplvXellFVoZJmjVPtaGX Nzcw7nhKYa0jG7y1A] ]
+decrypted str: [YRgGbfvt2Ng6NwgTGBU6lvXellFV7ZNCRVhtgGX Nacw7nhUYgpRG7y1A]
+text_hash:87.7143]
+71: [encryptedText struct:[charReplaceEncryption struct:
+	pairs_count: 12
+	encrypted_str: [5sc4RpXEzCO5 OZRtQFTfJQK86Yssj9uKkxzIudi74kfPj6g9Jaos28x741wl927rzG 3Uq9VLlL5p3b0ayzbG] ]
+decrypted str: [5sc4Rr1HzCO5FOZRtSlTfJSK864ssj9uKkxzIudi74kfPj6g9Jaos28x741wl927rzGF3Uq9VLlL5r3P0atzPG]
+text_hash:84.1744]
+72: [encryptedText struct:[cycleEncryption struct: 
+	shift: -11
+	encrypted_str: [-B)XB.8_DAa<Wj6LDa&Ya`m?J?c'N+,>-]jZJD'9%;F9[@g7@:NHOi7JVMI%'NF.[^b..aBZ'6H]`]G)LCKL\kDh] ]
+decrypted str: [8M4cM9CjOLlGbuAWOl1dl kxJUJn2Y67I8hueUO2D0FQDfKrBKEYSZtBUaXT02YQ9fim99lMe2AShkhR4WNVWgvOs]
+text_hash:82.3146]
+73: [encryptedText struct:[charReplaceEncryption struct:
+	pairs_count: 3
+	encrypted_str: [S1PdK5fiUvDbmE80] ]
+decrypted str: [S1PdK5fiUvrbmE80]
+text_hash:84]
+74: [encryptedText struct:[cycleEncryption struct: 
+	shift: 91
+	encrypted_str: [),NNL0*L2QD0FS H'3@@TKU>R$%S&D3>'G,<R)")!DFFAB)-4PS# ND] ]
+decrypted str: [4NQssqU6OqWviUkxEmLXeeypzcwIJx8KiXcLl7QawNGNF1ikk5fAgN1RYuxH1EsiC]
+text_hash:90]
+75: [encryptedText struct:[charReplaceEncryption struct:
+	pairs_count: 52
+	encrypted_str: [wLYvWuvq5Dg3U6 KdUvRjvkRDEVdFf6cZ5GWyamCMBEGHPpTHTL2m5R1IMbo2hz1ldUSmev0P9OuV] ]
+decrypted str: [ LYjWuj65DmwM6RKdMjR5jkRDDVdF86ZZ5GWydKCEGDGHPqJHJLbK5R1IEbkbhz1ldMSKKjQPQOuV]
+text_hash:82.3117]
+76: [encryptedText struct:[intReplaceEncryption struct:
+	pairs_count: 16
+	encrypted_str: [10062 660 -15786 29537 -4558 -860 -14874 15414 -20509 20839 17458 -26864 -13845 18185 -12346 32104 ] ]
+decrypted str: [f379pjBw0IkDDwZe]
+text_hash:83.875]
+77: [encryptedText struct:[cycleEncryption struct: 
+	shift: -3
+	encrypted_str: [3ebu_pn] ]
+decrypted str: [6hexbs q]
+text_hash:92.125]
+78: [encryptedText struct:[cycleEncryption struct: 
+	shift: 2
+	encrypted_str: [UjhYp] ]
+decrypted str: [ShfWn]
+text_hash:97.2]
+79: [encryptedText struct:[cycleEncryption struct: 
+	shift: -18
+	encrypted_str: [[3dV!c3$V6[eQfG[G1]Pa3`] $2HQ27HB8F[Z!1"[UC%0@5H"0ad1d&0] ]
+decrypted str: [ mEv1h31uE6hHmwcxYmYCobsEro26DZc1DIZTJXml3C4m gU7BRGZ40BsvCv8B]
+text_hash:82.0806]
+80: [encryptedText struct:[charReplaceEncryption struct:
+	pairs_count: 55
+	encrypted_str: [cHNVEssrlu5dRNdj2AIt2RWHXpqm qFm7qgLSJadder53El3e5tgWnWRNmdXMRiQizzaiK] ]
+decrypted str: [cMQM5SS1luuXRQXj2AI52R8MXobPhbFP7bD52J XXq1uW5lWqu5D8t8RQPXXKRfQfyy fu]
+text_hash:82.5286]
+81: [encryptedText struct:[intReplaceEncryption struct:
+	pairs_count: 14
+	encrypted_str: [11480 -7257 12463 31392 15017 24300 -14359 -2202 2318 18485 24992 6368 -29317 19620 ] ]
+decrypted str: [IDeVyZMRQ4opbH]
+text_hash:87.4286]
+82: [encryptedText struct:[charReplaceEncryption struct:
+	pairs_count: 41
+	encrypted_str: [O3wkxySupX70YYSKOBM8RsfW oRmt zhb7DJFve4qi og4 4CU9rnlnxLfUcptuzy9jbBwe3Nmp3nz42ra] ]
+decrypted str: [jWQlxyS5s0d0YYSZjBM8S1fW 7SZt QhbdDUFyi4qi 7g4 4QU9rMlMxLfUcst5Qy9KbBQiWNZsWMQ4LrI]
+text_hash:83.6829]
+83: [encryptedText struct:[charReplaceEncryption struct:
+	pairs_count: 44
+	encrypted_str: [yPArRewnv6VRJjjIH uGaHUWhs4HZ8fvWRWL5s0xy5ofmIZ3QtG2 zWr3X815k] ]
+decrypted str: [yP7ERecYvYVRJjjIH uqaH9WhdfHYDcvWRWLed0xyeoc7IYcQtqY zWEcXDYek]
+text_hash:89.3387]
+84: [encryptedText struct:[intReplaceEncryption struct:
+	pairs_count: 89
+	encrypted_str: [-11214 8505 17586 -28187 -10230 -9315 -5722 -15795 25335 -4711 -20464 10913 25214 31891 20095 -31249 -2301 -32504 -16136 21770 -16349 4693 -5165 7410 -6899 12204 -9110 -16186 -4347 -3920 10182 17207 -28183 -5000 -10981 27121 -14315 -16703 11325 -21748 11353 23629 -10836 -28969 -10016 9258 5316 20450 9521 21948 -23316 25939 26640 4286 -32186 -13026 -16278 -8529 3555 12143 20318 13737 29349 -7865 8736 18367 19255 27188 -31104 -2187 -27328 13016 -11326 27370 -15953 -21343 3861 22130 31875 -19386 -21458 -24209 -26214 -27585 -19923 -25633 -7844 -3434 -1395 ] ]
+decrypted str: [xbCpgtyNKTtRisr4Aarv8rZuCxZxOhLjtnIJRgwC 1rqqSuZ4Uv9juCW3AtOSf9lBQ6r8z3fytGZl0Zm3uulX7iXG]
+text_hash:90.9551]
+85: [encryptedText struct:[intReplaceEncryption struct:
+	pairs_count: 22
+	encrypted_str: [-24539 22245 -6781 -30900 -21510 -7645 -10736 6889 2449 26839 -26084 -29430 -23925 5998 13062 6376 -11138 -21270 9052 -16505 -17619 28614 ] ]
+decrypted str: [GboMslsc6Z WRKCNKojMnl]
+text_hash:88.4545]
+86: [encryptedText struct:[cycleEncryption struct: 
+	shift: -94
+	encrypted_str: [WujqytiZ] ]
+decrypted str: [5SmfHOWRaGju8v]
+text_hash:88]
+87: [encryptedText struct:[charReplaceEncryption struct:
+	pairs_count: 19
+	encrypted_str: [R8VecOYny5OXV0fY9QvdWynF8tOKj2N 9HoivkH3mt1iDdgJ5KWY] ]
+decrypted str: [R8VecOYny5OuV8fYJSvdWynF8tOcj3N JHoivkH3mt1iDdgJ5cWY]
+text_hash:87.4423]
+88: [encryptedText struct:[intReplaceEncryption struct:
+	pairs_count: 30
+	encrypted_str: [-15744 -27175 -2795 -1796 3533 23465 22658 -23730 19965 -20803 -1813 21569 2691 -9707 -28585 4185 -6143 -7895 14836 -11044 21111 -26235 13906 -2811 -14927 -30987 -22137 -11907 -26600 -18369 ] ]
+decrypted str: [ySajhhnG DcHd4M0xPruT369QnrnBG]
+text_hash:85.7667]
+89: [encryptedText struct:[cycleEncryption struct: 
+	shift: -70
+	encrypted_str: [)-
+1-.	!l  
+nq-/j] ]
+decrypted str: [osPEQwMsHtGKdOg2fLUfP47csuM0FXG3nuEd2qEISjr59G7npYBeZIpraczQ9fRvK]
+text_hash:87.0923]
+90: [encryptedText struct:[intReplaceEncryption struct:
+	pairs_count: 36
+	encrypted_str: [-9108 14328 1453 -21793 -2044 7038 -2027 -25199 -14734 -17989 -7477 -12459 -24722 22206 -11925 29265 16072 -8961 -16072 26424 -21537 -5007 -19335 12313 -18271 -6777 10705 -15403 -29454 13581 24878 26973 -4859 26330 -27588 25865 ] ]
+decrypted str: [8JhTfb2 3KhSaS0JCW0vYpTLcXfSn0luSBl7]
+text_hash:82.3056]
+91: [encryptedText struct:[intReplaceEncryption struct:
+	pairs_count: 96
+	encrypted_str: [-16778 -2173 -26962 5693 29290 23858 -20676 -11125 20373 -19286 -5340 -3566 -3399 26434 15966 29853 -4013 -16456 22446 -7488 -20969 8602 -5784 381 -4644 31838 -10371 -32025 21854 4830 -20467 5076 2656 18105 -21999 -821 9195 22859 -11947 29568 -29195 15480 -6766 -32594 9147 9199 30026 -27634 25511 -13064 30413 4541 -4463 -8139 -27846 -9107 23699 27317 -8365 -19983 -620 -28833 17860 2035 22040 28628 -31554 31234 -14049 22034 28034 22291 4746 21267 22464 -18875 -2301 -13046 19026 23209 6657 16671 -5018 -30573 8531 -97 -6913 -538 27220 -15279 -20521 26599 -11345 30106 -4134 -22073 ] ]
+decrypted str: [28L6clVqe3wVMN7uVkUECcDnWxZYhugiz3mMnhcAiHt4szxlSr2tECRA9RznjOHTQ3DbhONAugEXP hHCgaeT2Q2Qnm b321]
+text_hash:85.8229]
+92: [encryptedText struct:[cycleEncryption struct: 
+	shift: 20
+	encrypted_str: [lljwfE_L\fyex[`UejXdj\KIgFEaxVx|[iWI^w}UzJI|]h] ]
+decrypted str: [mqXXVczR1K8HknRzeQpdGLAQVDPVHr75S21MdzBdhGUC5JcizAwfm65hIT]
+text_hash:85.3621]
+93: [encryptedText struct:[charReplaceEncryption struct:
+	pairs_count: 19
+	encrypted_str: [1S0f4I9g3aKUOJ2LN01xaqJu6j11knrlfyzigHxiQgbC1anLjniuM11RjYQFlhZBQwT8bqo3FACFL2q4mKw KuZ4q] ]
+decrypted str: [1B0fMI9a3gKUOJXLN01xgoJu6j11knrlfyzcauxcQabC1gnLjncuM11RjYQFlhvBQwT8boo3FACFLXoMmKw KuvMo]
+text_hash:87.1236]
+94: [encryptedText struct:[cycleEncryption struct: 
+	shift: 73
+	encrypted_str: [6i/{5954""##96.>=*3B 8+225A3*{?!<61#6~-,?.y::-"?9y,86] ]
+decrypted str: [8DmV f2lFplkYYZHZpKm9euRJtUajyWobiilxjFaJ2vHXsmVT8hZmKO5dGcve0VqqdKYvp0coCSm7ehXlxUGhJLtpW1F7T5w6N]
+text_hash:89.6122]
+95: [encryptedText struct:[intReplaceEncryption struct:
+	pairs_count: 36
+	encrypted_str: [-28347 1628 2024 -3090 25779 18165 17883 15910 7728 11968 -8698 -18962 16986 -23580 2401 -10535 21797 -4543 -19217 -6838 -10325 14906 -11547 -21295 14483 -15742 2057 -31948 -11324 32087 20089 25863 -31821 -10655 22772 26726 ] ]
+decrypted str: [eiv8rDj9Ha3sNqzjOmX3d5jQEaDJM323iv8L]
+text_hash:84.3889]
+96: [encryptedText struct:[charReplaceEncryption struct:
+	pairs_count: 70
+	encrypted_str: [jjqP6fKNOPY1m3y QLC SIb9UdWNim4CEtpJJ wwXtwkt5ujP6tHNFNHSKs06vJJ10rHhWdepJxRN10C7DhRg5z8M] ]
+decrypted str: [jjqP4fKNFPY1Y3IHO5NHSIUKNgQNaYRNitpJJHwwstwmt5WjP4tONUNOSKLC4IJJ1CiOpQgUpJ RN1CNDtpRm5Olv]
+text_hash:84.2697]
+97: [encryptedText struct:[charReplaceEncryption struct:
+	pairs_count: 72
+	encrypted_str: [P2MssMRmbwz6vKZrC8SvQO3AW1NtTmEGmp9NbX otHtXsqo4wfym5yWYzJsq567qudeHao7C6xzvXXyta6OeEKabt] ]
+decrypted str: [XCMDDMX bwL65KwFC8b5QOrwv8Nja rG 3KNbXtVjUjXD V5wfz mzv3LVD m67 yYeUzV7C6hL5XXzjz6OerKzbj]
+text_hash:83.0449]
+98: [encryptedText struct:[intReplaceEncryption struct:
+	pairs_count: 38
+	encrypted_str: [-18487 23929 3630 15998 -8302 26811 29363 20425 18936 -16045 -26083 22290 24385 -26239 23666 -21515 -29500 -11238 22617 18978 -13444 -23092 -26496 -9777 -26908 -30677 -11437 564 -23188 6452 24701 -8908 30380 28330 -25677 -10690 -10394 3685 ] ]
+decrypted str: [2F6YhHrrPQytIQdnizLY9CdeZa3kiEOjkSfAzG]
+text_hash:89.4737]
+99: [encryptedText struct:[intReplaceEncryption struct:
+	pairs_count: 88
+	encrypted_str: [11748 -20390 -30012 24172 -23345 -7213 -22669 -3310 -11322 30882 5287 17900 -4290 -12431 6287 -15603 229 23003 -19826 2199 -3442 12404 13904 11421 -495 9260 24347 31396 27562 26234 -11740 6542 -26924 -8984 30713 15265 16570 -24724 -20813 5247 6157 -15527 -9621 1867 4809 -3335 19031 5038 19668 31973 -25531 16225 -21159 -11627 27645 11113 -2368 19224 -23027 -7574 12690 -1999 31735 -14235 21784 29681 -31738 -27182 4956 12983 10833 -21654 30223 1211 12980 -30503 -2124 -757 -25466 17543 31215 -18230 1000 -22712 -29858 -4123 -11600 541 ] ]
+decrypted str: [xK 7HDJddMmwQOPydZKCVoXNKRBlk 2QS0WzMDLYn0vdViK0ivJdUE2EvAZOJYCB8y SbTQz3lLWFw6W3N Ur0xWá]
+text_hash:82.5]

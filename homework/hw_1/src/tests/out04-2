@@ -1,0 +1,22 @@
+Sorted container:
+Container contains 4 elements.
+0: [encryptedText struct:[intReplaceEncryption struct:
+	pairs_count: 17
+	encrypted_str: [14503 -8234 -13845 -12030 -4729 -14373 -718 -14373 -4729 -13845 -14917 -14228 -4729 -6916 -712 -14917 9548 -4729 -11937 4093 -4729 -14917 -3565 -4729 3771 -8234 -14917 3771 3610 -8234 -12030 ] ]
+decrypted str: [Hey, did you know 6% of people,]
+text_hash:84.6452]
+1: [encryptedText struct:[intReplaceEncryption struct:
+	pairs_count: 16
+	encrypted_str: [7706 -14843 202 -4143 7035 -3148 14920 7035 -7311 6544 -14657 14124 -11139 -14657 -4903 6803 7035 -387 14833 -14843 ] ]
+decrypted str: [Hey! Im building the]
+text_hash:88.6]
+2: [encryptedText struct:[intReplaceEncryption struct:
+	pairs_count: 21
+	encrypted_str: [-2110 13788 13788 -7485 -4663 3383 13951 12795 -9979 -7485 -2344 2820 13951 -11737 -11737 1637 14785 -2344 7774 13788 9938 -2344 9938 13951 114 114 -2344 2820 13951 -11737 -11737 1637 -2344 360 -9979 -1078 -2344 1637 -2344 11732 13788 11721 -2344 6432 13788 9938 14785 ] ]
+decrypted str: [Wood-fired pizza? How will pizza get a job now?]
+text_hash:91.234]
+3: [encryptedText struct:[intReplaceEncryption struct:
+	pairs_count: 5
+	encrypted_str: [5748 -12067 1292 -3980 10613 5748 -12067 1292 -3980 10613 5748 -12067 1292 -3980 ] ]
+decrypted str: [bruh bruh bruh]
+text_hash:97.3571]

@@ -37,7 +37,7 @@ void In(intReplaceEncryption &ire, std::ifstream &ifst) {
 
 // Случайный ввод
 void InRnd(intReplaceEncryption &ire) {
-    std::cout << "random intReplaceEncryption input" << std::endl;
+    // std::cout << "random intReplaceEncryption input" << std::endl;
 
     ire.str_len = Random(1, 100);
     ire.pairs_count = ire.str_len;
