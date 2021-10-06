@@ -37,7 +37,24 @@ void In(intReplaceEncryption &ire, std::ifstream &ifst) {
 
 // Случайный ввод
 void InRnd(intReplaceEncryption &ire) {
+    std::cout << "random intReplaceEncryption input" << std::endl;
 
+    ire.str_len = Random(1, 100);
+    ire.pairs_count = ire.str_len;
+
+    static auto chars = "1234567890 abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    static int chars_len = 63;
+
+    ire.encrypted_str = new short int[ire.str_len];
+    for (int i = 0; i < ire.str_len; ++i) {
+        ire.encrypted_str[i] = (short int)(Random(-32767, 32768));
+    }
+
+    ire.replace_pairs = new csPair[ire.pairs_count];
+    for (int i = 0; i < ire.pairs_count; ++i) {
+        ire.replace_pairs[i].first = chars[Random(0, chars_len)];
+        ire.replace_pairs[i].second = ire.encrypted_str[i];
+    }
 }
 
 // Вывод в поток

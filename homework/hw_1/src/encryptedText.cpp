@@ -62,7 +62,7 @@ encryptedText* In(std::ifstream &ifst) {
 // Случайный ввод
 encryptedText *InRnd() {
     encryptedText *text = new encryptedText();
-    auto type = Random(0, 2);
+    auto type = Random(0, 3);
 
     if (type == 0) {
         text->e_key = encryptedText::CHARREPLACE;
