@@ -30,8 +30,8 @@ void InRnd(cycleEncryption &ce) {
     ce.str_len = Random(1, 100);
     ce.shift = Random(-100, 101);
 
-    auto chars = "1234567890 abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
-    int chars_len = 63;
+    static auto chars = "1234567890 abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    static int chars_len = 63;
 
     ce.encrypted_str = new char[ce.str_len];
     for (int i = 0; i < ce.str_len; ++i) {
@@ -44,9 +44,9 @@ void InRnd(cycleEncryption &ce) {
 
 // Вывод в поток
 void Out(cycleEncryption &ce, std::ofstream &ofst) {
-    ofst << "[cycleEncryption struct: shift:" << ce.shift
-         << " encrypted_str:" << ce.encrypted_str
-         << ']';
+    ofst << "[cycleEncryption struct: "
+         << "\n\tshift: " << ce.shift
+         << "\n\tencrypted_str: [" << ce.encrypted_str << "] ]";
 }
 
 // Дешифровка строки

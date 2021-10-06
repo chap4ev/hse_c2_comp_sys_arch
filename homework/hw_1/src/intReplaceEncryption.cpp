@@ -17,7 +17,6 @@ void Clear(intReplaceEncryption &ire) {
 // Ввод из потока
 void In(intReplaceEncryption &ire, std::ifstream &ifst) {
     std::cout << "intReplaceEncryption input" << std::endl;
-    
     ifst >> ire.str_len;
     ifst >> ire.pairs_count;
 
@@ -43,12 +42,13 @@ void InRnd(intReplaceEncryption &ire) {
 
 // Вывод в поток
 void Out(intReplaceEncryption &ire, std::ofstream &ofst) {
-    ofst << "[intReplaceEncryption struct: pairs_count: " << ire.pairs_count
-         << " encrypted_str:";
+    ofst << "[intReplaceEncryption struct:"
+         << "\n\tpairs_count: " << ire.pairs_count
+         << "\n\tencrypted_str: [";
     for (int i = 0; i < ire.str_len; ++i) {
         ofst << ire.encrypted_str[i] << ' ';
     }
-    ofst << ']';
+    ofst << "] ]";
 }
 
 // Дешифровка строки

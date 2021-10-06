@@ -9,15 +9,15 @@
 // Деструктор
 void Clear(encryptedText &t) {
     switch (t.e_key) {
-        case encryptedText::CHARREPLACE:
-            Clear(t.char_replace);
-            break;
-        case encryptedText::CYCLE:
-            Clear(t.cycle);
-            break;
-        case encryptedText::INTREPLACE:
-            Clear(t.int_replace);
-            break;
+    case encryptedText::CHARREPLACE:
+        Clear(t.char_replace);
+        break;
+    case encryptedText::CYCLE:
+        Clear(t.cycle);
+        break;
+    case encryptedText::INTREPLACE:
+        Clear(t.int_replace);
+        break;
     }
     delete [] t.str;
     t.str_len = 0;
@@ -62,7 +62,7 @@ encryptedText* In(std::ifstream &ifst) {
 // Случайный ввод
 encryptedText *InRnd() {
     encryptedText *text = new encryptedText();
-    auto type = 1;  // Random(0,3);
+    auto type = Random(0, 2);
 
     if (type == 0) {
         text->e_key = encryptedText::CHARREPLACE;
@@ -89,7 +89,7 @@ encryptedText *InRnd() {
 //------------------------------------------------------------------------------
 // Вывод в поток
 void Out(encryptedText &t, std::ofstream &ofst) {
-    ofst << "[encryptedText struct:\n";
+    ofst << "[encryptedText struct:";
     switch (t.e_key) {
         case encryptedText::CHARREPLACE:
             Out(t.char_replace, ofst);
@@ -101,7 +101,8 @@ void Out(encryptedText &t, std::ofstream &ofst) {
             Out(t.int_replace, ofst);
             break;
     }
-    ofst << "\ndecrypted str:[" << t.str << "] text_hash:" << TextHash(t) << "]\n";
+    ofst << "\ndecrypted str: [" << t.str << "]"
+         << "\ntext_hash:" << TextHash(t) << "]\n";
 }
 
 //------------------------------------------------------------------------------
