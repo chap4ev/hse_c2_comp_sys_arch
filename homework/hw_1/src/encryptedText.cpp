@@ -9,26 +9,17 @@
 // Деструктор
 void Clear(encryptedText &t) {
     switch (t.e_key) {
-    case encryptedText::CHARREPLACE:
-        delete [] t.char_replace.encrypted_str;
-        t.char_replace.str_len = 0;
-        delete [] t.char_replace.replace_pairs;
-        t.char_replace.pairs_count = 0;
-        delete [] t.str;
-        break;
-    case encryptedText::CYCLE:
-        delete [] t.cycle.encrypted_str;
-        t.cycle.str_len = 0;
-        delete [] t.str;
-        break;
-    case encryptedText::INTREPLACE:
-        delete [] t.int_replace.encrypted_str;
-        t.int_replace.str_len = 0;
-        delete [] t.int_replace.replace_pairs;
-        t.int_replace.pairs_count = 0;
-        delete [] t.str;
-        break;
+        case encryptedText::CHARREPLACE:
+            Clear(t.char_replace);
+            break;
+        case encryptedText::CYCLE:
+            Clear(t.cycle);
+            break;
+        case encryptedText::INTREPLACE:
+            Clear(t.int_replace);
+            break;
     }
+    delete [] t.str;
     t.str_len = 0;
 }
 
@@ -40,21 +31,21 @@ encryptedText* In(std::ifstream &ifst) {
     char type[50];
     ifst >> type >> text->str_len;
     if (!strcmp(type, "charReplaceEncryption")) {
-        std::cout << "charReplaceEncryption input" << std::endl; 
+        std::cout << "charReplaceEncryption input" << std::endl;
         text->e_key = encryptedText::CHARREPLACE;
         (text->char_replace).str_len = text->str_len;
         In(text->char_replace, ifst);
         text->str = Decrypt(text->char_replace);
 
     } else if (!strcmp(type, "cycleEncryption")) {
-        std::cout << "cycleEncryption input" << std::endl; 
+        std::cout << "cycleEncryption input" << std::endl;
         text->e_key = encryptedText::CYCLE;
         (text->cycle).str_len = text->str_len;
         In(text->cycle, ifst);
         text->str = Decrypt(text->cycle);
 
     } else if (!strcmp(type, "intReplaceEncryption")) {
-        std::cout << "intReplaceEncryption input" << std::endl; 
+        std::cout << "intReplaceEncryption input" << std::endl;
         text->e_key = encryptedText::INTREPLACE;
         (text->int_replace).str_len = text->str_len;
         In(text->int_replace, ifst);
@@ -103,7 +94,7 @@ void Out(encryptedText &t, std::ofstream &ofst) {
             Out(t.int_replace, ofst);
             break;
     }
-    ofst << "\ndecrypted str:" << t.str << "]\n";
+    ofst << "\ndecrypted str:[" << t.str << "] text_hash:" << TextHash(t) << "]\n";
 }
 
 //------------------------------------------------------------------------------

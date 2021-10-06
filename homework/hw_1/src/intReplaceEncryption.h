@@ -22,6 +22,9 @@ struct intReplaceEncryption {
     csPair *replace_pairs;
 };
 
+// Деструктор
+void Clear(intReplaceEncryption &ire);
+
 // Ввод из потока
 void In(intReplaceEncryption &ire, std::ifstream &ifst);
 

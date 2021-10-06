@@ -19,6 +19,10 @@ struct cycleEncryption {
     int shift;
 };
 
+
+// Деструктор
+void Clear(cycleEncryption &ce);
+
 // Ввод из потока
 void In(cycleEncryption &ce, std::ifstream &ifst);
 

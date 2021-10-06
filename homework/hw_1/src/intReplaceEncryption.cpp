@@ -6,6 +6,14 @@
 #include "intReplaceEncryption.h"
 
 
+// Деструктор
+void Clear(intReplaceEncryption &ire) {
+    delete [] ire.encrypted_str;
+    ire.str_len = 0;
+    delete [] ire.replace_pairs;
+    ire.pairs_count = 0;
+}
+
 // Ввод из потока
 void In(intReplaceEncryption &ire, std::ifstream &ifst) {
     ire.encrypted_str = new short int[ire.str_len];

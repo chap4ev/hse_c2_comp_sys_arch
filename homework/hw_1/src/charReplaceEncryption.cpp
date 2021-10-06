@@ -6,6 +6,14 @@
 #include "charReplaceEncryption.h"
 
 
+// Деструктор
+void Clear(charReplaceEncryption &cre) {
+    delete [] cre.encrypted_str;
+    cre.str_len = 0;
+    delete [] cre.replace_pairs;
+    cre.pairs_count = 0;
+}
+
 // Ввод из потока
 void In(charReplaceEncryption &cre, std::ifstream &ifst) {
     cre.encrypted_str = new char[cre.str_len];
@@ -43,7 +51,7 @@ char *Decrypt(charReplaceEncryption &cre) {
         char encrypted_char = cre.encrypted_str[i];
 
         for (int j = 0; j < cre.pairs_count; ++j) {
-            if (encrypted_char == (cre.replace_pairs[j]).second){
+            if (encrypted_char == (cre.replace_pairs[j]).second) {
                 decrypted[i] = (cre.replace_pairs[j]).first;
                 break;
             }

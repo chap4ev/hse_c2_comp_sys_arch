@@ -5,6 +5,13 @@
 
 #include "cycleEncryption.h"
 
+
+// Деструктор
+void Clear(cycleEncryption &ce) {
+    delete [] ce.encrypted_str;
+    ce.str_len = 0;
+}
+
 // Ввод из потока
 void In(cycleEncryption &ce, std::ifstream &ifst) {
     ce.encrypted_str = new char[ce.str_len];
