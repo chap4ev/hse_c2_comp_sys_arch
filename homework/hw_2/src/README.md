@@ -1,5 +1,5 @@
 ## Tests runtime
-`sh run_tests.sh`
+`sh ../run_tests.sh`
 
 Run test01
 ...
