@@ -1,0 +1,17 @@
+Filled Container:
+Container contains 3 elements.
+0: [CharReplaceEncryption struct:
+	pairs_count: 9
+	encrypted_str: [hattfrefgtyw]
+	decrypted_str: [Hello world!]
+	text_hash:93.0833]
+1: [CycleEncryption struct: 
+	shift: 2
+	encrypted_str: [Jgnnq"yqtnf#]
+	decrypted_str: [Hello world!]
+	text_hash:93.0833]
+2: [IntReplaceEncryption struct:
+	pairs_count: 9
+	encrypted_str: [1 2 3 3 4 5 6 4 7 3 8 9 ]
+	decrypted_str: [Hello world!]
+	text_hash:93.0833]
