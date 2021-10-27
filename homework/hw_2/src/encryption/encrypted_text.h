@@ -19,8 +19,9 @@ protected:
 
     virtual void decrypt() = 0;
 
-public:
     EncryptedText() = default;
+
+public:
 
     virtual ~EncryptedText();
 

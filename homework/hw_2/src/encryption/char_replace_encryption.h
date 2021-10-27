@@ -26,8 +26,9 @@ protected:
     // Дешифровка строки
     void decrypt() override;
 
-public:
     CharReplaceEncryption() = default;
+
+public:
 
     ~CharReplaceEncryption() override;
 

@@ -24,8 +24,9 @@ protected:
     // Дешифровка строки
     void decrypt() override;
 
-public:
     CycleEncryption() = default;
+
+public:
 
     ~CycleEncryption() override;
 

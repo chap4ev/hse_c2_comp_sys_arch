@@ -30,8 +30,9 @@ protected:
     // Дешифровка строки
     void decrypt() override;
 
-public:
     IntReplaceEncryption() = default;
+
+public:
 
     ~IntReplaceEncryption() override;
 
