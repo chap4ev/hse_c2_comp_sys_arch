@@ -16,10 +16,10 @@
 //------------------------------------------------------------------------------
 class CharReplaceEncryption : public EncryptedText {
 protected:
-    // зашифрованный текст
-    char *encrypted_str{nullptr};
     // количество пар замены
     int pairs_count{0};
+    // зашифрованный текст
+    char *encrypted_str{nullptr};
     // указатель на массив пар: [текущий символ, замещающий символ]
     ccPair *replace_pairs{nullptr};
 

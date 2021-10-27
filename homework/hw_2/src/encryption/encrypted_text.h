@@ -12,10 +12,10 @@
 // структура, обобщающая все варианты шифрования текста
 class EncryptedText {
 protected:
-    // длина строки
-    int str_len{0};
     // дешифрованный текст
     char *decrypted_str{nullptr};
+    // длина строки
+    int str_len{0};
 
     virtual void decrypt() = 0;
 
