@@ -13,7 +13,7 @@ CharReplaceEncryption::~CharReplaceEncryption() {
 }
 
 // Ввод из потока
-CharReplaceEncryption *CharReplaceEncryption::inputFromStream(std::ifstream &ifst) {
+CharReplaceEncryption *CharReplaceEncryption::buildFromStream(std::ifstream &ifst) {
     // std::cout << "CharReplaceEncryption input" << std::endl;
 
     auto *cre = new CharReplaceEncryption();
@@ -39,7 +39,7 @@ CharReplaceEncryption *CharReplaceEncryption::inputFromStream(std::ifstream &ifs
 }
 
 // Случайный ввод
-CharReplaceEncryption *CharReplaceEncryption::randomFill() {
+CharReplaceEncryption *CharReplaceEncryption::buildRandom() {
     // std::cout << "random CharReplaceEncryption input" << std::endl;
 
     auto *cre = new CharReplaceEncryption();

@@ -14,7 +14,7 @@ IntReplaceEncryption::~IntReplaceEncryption() {
 }
 
 // Ввод из потока
-IntReplaceEncryption *IntReplaceEncryption::inputFromStream(std::ifstream &ifst) {
+IntReplaceEncryption *IntReplaceEncryption::buildFromStream(std::ifstream &ifst) {
     // std::cout << "IntReplaceEncryption input" << std::endl;
 
     auto *ire = new IntReplaceEncryption();
@@ -41,7 +41,7 @@ IntReplaceEncryption *IntReplaceEncryption::inputFromStream(std::ifstream &ifst)
 }
 
 // Случайный ввод
-IntReplaceEncryption *IntReplaceEncryption::randomFill() {
+IntReplaceEncryption *IntReplaceEncryption::buildRandom() {
     // std::cout << "random IntReplaceEncryption input" << std::endl;
 
     auto *ire = new IntReplaceEncryption();

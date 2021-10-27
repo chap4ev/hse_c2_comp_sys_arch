@@ -30,10 +30,10 @@ public:
     ~CycleEncryption() override;
 
     // Ввод из потока
-    static CycleEncryption *inputFromStream(std::ifstream &ifst);
+    static CycleEncryption *buildFromStream(std::ifstream &ifst);
 
     // Случайный ввод
-    static CycleEncryption *randomFill();
+    static CycleEncryption *buildRandom();
 
     // Вывод в поток
     void outputToStream(std::ofstream &ofst) override;

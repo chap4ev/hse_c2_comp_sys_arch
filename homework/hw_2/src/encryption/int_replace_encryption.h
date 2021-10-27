@@ -36,10 +36,10 @@ public:
     ~IntReplaceEncryption() override;
 
     // Ввод из потока
-    static IntReplaceEncryption *inputFromStream(std::ifstream &ifst);
+    static IntReplaceEncryption *buildFromStream(std::ifstream &ifst);
 
     // Случайный ввод
-    static IntReplaceEncryption *randomFill();
+    static IntReplaceEncryption *buildRandom();
 
     // Вывод в поток
     void outputToStream(std::ofstream &ofst) override;

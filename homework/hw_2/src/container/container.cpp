@@ -17,7 +17,7 @@ Container::~Container() {
 // Ввод содержимого контейнера из указанного потока
 void Container::inputFromStream(std::ifstream &ifst) {
     while (!ifst.eof()) {
-        if ((data[size] = EncryptedText::inputFromStream(ifst)) != nullptr) {
+        if ((data[size] = EncryptedText::buildFromStream(ifst)) != nullptr) {
             size++;
         }
     }
@@ -26,7 +26,7 @@ void Container::inputFromStream(std::ifstream &ifst) {
 // Случайный ввод содержимого контейнера
 void Container::randomFill(int newSize) {
     while (size < newSize) {
-        if ((data[size] = EncryptedText::randomFill()) != nullptr) {
+        if ((data[size] = EncryptedText::buildRandom()) != nullptr) {
             size++;
         }
     }

@@ -18,19 +18,19 @@ EncryptedText::~EncryptedText() {
 
 //------------------------------------------------------------------------------
 // Ввод из потока
-EncryptedText *EncryptedText::inputFromStream(std::ifstream &ifst) {
+EncryptedText *EncryptedText::buildFromStream(std::ifstream &ifdt) {
     EncryptedText *text;
     char type[50];
-    ifst >> type;
+    ifdt >> type;
     if (!strcmp(type, "CharReplaceEncryption")) {
-        text = dynamic_cast<EncryptedText *>(CharReplaceEncryption::inputFromStream(ifst));
-        ifst.ignore(1000, '\n');
+        text = dynamic_cast<EncryptedText *>(CharReplaceEncryption::buildFromStream(ifdt));
+        ifdt.ignore(1000, '\n');
     } else if (!strcmp(type, "CycleEncryption")) {
-        text = dynamic_cast<EncryptedText *>(CycleEncryption::inputFromStream(ifst));
-        ifst.ignore(1000, '\n');
+        text = dynamic_cast<EncryptedText *>(CycleEncryption::buildFromStream(ifdt));
+        ifdt.ignore(1000, '\n');
     } else if (!strcmp(type, "IntReplaceEncryption")) {
-        text = dynamic_cast<EncryptedText *>(IntReplaceEncryption::inputFromStream(ifst));
-        ifst.ignore(1000, '\n');
+        text = dynamic_cast<EncryptedText *>(IntReplaceEncryption::buildFromStream(ifdt));
+        ifdt.ignore(1000, '\n');
 
     } else {
         std::cout << "ERROR: Wrong type [" << type << "]\n";
@@ -41,16 +41,16 @@ EncryptedText *EncryptedText::inputFromStream(std::ifstream &ifst) {
 }
 
 // Случайный ввод
-EncryptedText *EncryptedText::randomFill() {
+EncryptedText *EncryptedText::buildRandom() {
     EncryptedText *text;
     auto type = Random(0, 3);
 
     if (type == 0) {
-        text = dynamic_cast<EncryptedText *>(CharReplaceEncryption::randomFill());
+        text = dynamic_cast<EncryptedText *>(CharReplaceEncryption::buildRandom());
     } else if (type == 1) {
-        text = dynamic_cast<EncryptedText *>(CycleEncryption::randomFill());
+        text = dynamic_cast<EncryptedText *>(CycleEncryption::buildRandom());
     } else if (type == 2) {
-        text = dynamic_cast<EncryptedText *>(IntReplaceEncryption::randomFill());
+        text = dynamic_cast<EncryptedText *>(IntReplaceEncryption::buildRandom());
     }
 
     return text;

@@ -32,10 +32,10 @@ public:
     ~CharReplaceEncryption() override;
 
     // Ввод из потока
-    static CharReplaceEncryption *inputFromStream(std::ifstream &ifst);
+    static CharReplaceEncryption *buildFromStream(std::ifstream &ifst);
 
     // Случайный ввод
-    static CharReplaceEncryption *randomFill();
+    static CharReplaceEncryption *buildRandom();
 
     // Вывод в поток
     void outputToStream(std::ofstream &ofst) override;

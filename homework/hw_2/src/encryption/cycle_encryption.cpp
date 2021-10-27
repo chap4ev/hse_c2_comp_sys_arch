@@ -11,7 +11,7 @@ CycleEncryption::~CycleEncryption() {
 }
 
 // Ввод из потока
-CycleEncryption *CycleEncryption::inputFromStream(std::ifstream &ifst) {
+CycleEncryption *CycleEncryption::buildFromStream(std::ifstream &ifst) {
     // std::cout << "CycleEncryption input" << std::endl;
 
     auto *ce = new CycleEncryption();
@@ -27,7 +27,7 @@ CycleEncryption *CycleEncryption::inputFromStream(std::ifstream &ifst) {
 }
 
 // Случайный ввод
-CycleEncryption *CycleEncryption::randomFill() {
+CycleEncryption *CycleEncryption::buildRandom() {
     // std::cout << "random CycleEncryption input" << std::endl;
 
     auto *ce = new CycleEncryption();

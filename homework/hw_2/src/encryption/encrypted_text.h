@@ -25,10 +25,10 @@ public:
     virtual ~EncryptedText();
 
     // Ввод
-    static EncryptedText *inputFromStream(std::ifstream &ifdt);
+    static EncryptedText *buildFromStream(std::ifstream &ifdt);
 
     // Случайный ввод
-    static EncryptedText *randomFill();
+    static EncryptedText *buildRandom();
 
     // Вывод
     virtual void outputToStream(std::ofstream &ofst) = 0;
