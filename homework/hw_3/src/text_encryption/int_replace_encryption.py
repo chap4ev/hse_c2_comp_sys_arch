@@ -32,7 +32,7 @@ class IntReplaceEncryption(EncryptedText):
         self._decrypted_text = "".join([self._replace_pairs[i] for i in self._encrypted_text])
 
     def fill_from_str(self, input_str: str):
-        str_len, pairs_count, input_str = input_str.split(' ', 2)
+        pairs_count, input_str = input_str.split(' ', 1)
         pairs_count = int(pairs_count)
         ints = list(map(int, input_str[pairs_count + 1:].split()))
         self._replace_pairs = dict(zip(ints[:pairs_count], input_str[:pairs_count]))
