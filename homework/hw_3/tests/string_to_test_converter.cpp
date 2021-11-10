@@ -43,7 +43,7 @@ int main() {
         charencrypted_str.push_back(randomchars[unique_chars.find(c)]);
     }
 
-    std::cout << "charReplaceEncryption " << str.size()
+    std::cout << "charReplaceEncryption"
               << ' ' << unique_chars.size()
               << ' ' << unique_chars << randomchars
               << ' ' << charencrypted_str << std::endl;
@@ -57,7 +57,7 @@ int main() {
         intencrypted_str.push_back(rand_numbers[unique_chars.find(c)]);
     }
 
-    std::cout << "intReplaceEncryption " << str.size()
+    std::cout << "intReplaceEncryption"
               << ' ' << unique_chars.size()
               << ' ' << unique_chars << ' ';
 
@@ -80,7 +80,7 @@ int main() {
         );
     }
 
-    std::cout << "cycleEncryption " << str.size()
+    std::cout << "cycleEncryption"
               << ' ' << shift
               << ' ' << cycleencrypted_str;
     return 0;

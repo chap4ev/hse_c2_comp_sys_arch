@@ -2,6 +2,7 @@ import random
 import string
 from typing import List, Dict
 
+from src.exceptions import ParseError
 from src.text_encryption.encrypted_text import EncryptedText
 
 
@@ -32,10 +33,13 @@ class IntReplaceEncryption(EncryptedText):
         self._decrypted_text = "".join([self._replace_pairs[i] for i in self._encrypted_text])
 
     def fill_from_str(self, input_str: str):
-        pairs_count, input_str = input_str.split(' ', 1)
-        pairs_count = int(pairs_count)
-        ints = list(map(int, input_str[pairs_count + 1:].split()))
-        self._replace_pairs = dict(zip(ints[:pairs_count], input_str[:pairs_count]))
-        self._encrypted_text = ints[pairs_count:]
+        try:
+            pairs_count, input_str = input_str.split(' ', 1)
+            pairs_count = int(pairs_count)
+            ints = list(map(int, input_str[pairs_count + 1:].split()))
+            self._replace_pairs = dict(zip(ints[:pairs_count], input_str[:pairs_count]))
+            self._encrypted_text = ints[pairs_count:]
+        except Exception:
+            raise ParseError("IntReplaceEncryption parse error")
         self.decrypt()
         return self

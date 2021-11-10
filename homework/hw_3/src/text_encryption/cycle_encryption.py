@@ -1,8 +1,7 @@
 import random
-import re
 import string
-import sys
 
+from src.exceptions import ParseError
 from src.text_encryption.encrypted_text import EncryptedText
 
 
@@ -35,7 +34,10 @@ class CycleEncryption(EncryptedText):
         )
 
     def fill_from_str(self, input_str: str):
-        shift, self._encrypted_text = input_str.split(' ', 1)
-        self._shift = int(shift)
+        try:
+            shift, self._encrypted_text = input_str.split(' ', 1)
+            self._shift = int(shift)
+        except Exception:
+            raise ParseError("CycleEncryption parse error")
         self.decrypt()
         return self

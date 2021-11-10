@@ -2,7 +2,7 @@ import random
 import re
 from collections.abc import Sequence
 from pathlib import Path
-from typing import Union, List
+from typing import List
 
 from src.text_encryption.encrypted_text import EncryptedText
 from src.text_encryption.int_replace_encryption import IntReplaceEncryption

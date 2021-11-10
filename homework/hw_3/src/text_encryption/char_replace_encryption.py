@@ -1,7 +1,8 @@
 import random
 import string
-from typing import Dict, Any
+from typing import Dict
 
+from src.exceptions import ParseError
 from src.text_encryption.encrypted_text import EncryptedText
 
 
@@ -35,9 +36,12 @@ class CharReplaceEncryption(EncryptedText):
             self._decrypted_text += val if val is not None else char
 
     def fill_from_str(self, input_str: str):
-        pairs_count, input_str = input_str.split(' ', 1)
-        pairs_count = int(pairs_count)
-        self._replace_pairs = dict(zip(input_str[pairs_count:pairs_count * 2], input_str[:pairs_count]))
-        self._encrypted_text = input_str[pairs_count * 2 + 1:]
+        try:
+            pairs_count, input_str = input_str.split(' ', 1)
+            pairs_count = int(pairs_count)
+            self._replace_pairs = dict(zip(input_str[pairs_count:pairs_count * 2], input_str[:pairs_count]))
+            self._encrypted_text = input_str[pairs_count * 2 + 1:]
+        except Exception:
+            raise ParseError("CharReplaceEncryption parse error")
         self.decrypt()
         return self

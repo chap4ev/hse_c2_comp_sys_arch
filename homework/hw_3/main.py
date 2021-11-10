@@ -2,6 +2,7 @@ import sys
 from pathlib import Path
 
 from src.container import Container
+from src.exceptions import ParseError
 
 if __name__ == '__main__':
     args = sys.argv
@@ -39,7 +40,11 @@ if __name__ == '__main__':
         if not Path(input_file).is_file():
             print(f"err input file fill: input file \"{input_file}\" does not exist")
             exit()
-        container.fill_from_file(input_file)
+        try:
+            container.fill_from_file(input_file)
+        except ParseError as e:
+            print(f"err filling container: {repr(e)}")
+            exit()
 
     with open(out_file1, 'w') as out:
         out.write("Filled Container:\n")
