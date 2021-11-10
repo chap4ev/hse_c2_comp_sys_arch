@@ -40,7 +40,7 @@ Number of function = 2
 Результаты замеров показали прирост времени исполнения в 10-50 раз относительно процедурной и ООП реализации.
 
 ## Run
-`python3.10 main.py`
+`python3 main.py`
 
 ## Run all tests
 `sh run_tests.sh`
