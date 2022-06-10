@@ -1,0 +1,92 @@
+Filled Container:
+Container contains 18 elements.
+0: [CharReplaceEncryption struct:
+	pairs_count: 26
+	encrypted_str: [[dfkoBQk8sos##oL-%]oswLkoRwB]w8Do[oRrBoL#86kpxo8#sok8#-D]oswLkoZ|[~4oL#86kpV]
+	decrypted_str: [I've spent too much time wishing I was monkey, not enough time BEING monkey.]
+	text_hash:90.0395]
+1: [IntReplaceEncryption struct:
+	pairs_count: 26
+	encrypted_str: [1179 -7336 8282 -9808 14087 -9066 8241 -9808 4956 12058 14087 12058 -1314 -1314 14087 -3565 -8902 3963 -11217 14087 12058 10904 -3565 -9808 14087 2124 10904 -9066 -11217 10904 4956 -8884 14087 1179 14087 2124 -8729 -9066 14087 -3565 -1314 4956 -8638 -9808 7879 -4568 14087 4956 -1314 12058 14087 -9808 4956 -1314 -8902 -8884 -11217 14087 12058 10904 -3565 -9808 14087 -5952 10138 1179 3972 -7927 14087 -3565 -1314 4956 -8638 -9808 7879 -14601 ]
+	decrypted_str: [I've spent too much time wishing I was monkey, not enough time BEING monkey.]
+	text_hash:90.0395]
+2: [CycleEncryption struct: 
+	shift: -13
+	encrypted_str: [<iXfcXaggbb`hV[g\`Xj\f[\aZ<jTf`ba^XlabgXabhZ[g\`X58<A:`ba^Xl!]
+	decrypted_str: [I've spent too much time wishing I was monkey, not enough time BEING monkey.]
+	text_hash:90.0395]
+3: [CharReplaceEncryption struct:
+	pairs_count: 10
+	encrypted_str: [a}d|5 oDGDGj]
+	decrypted_str: [Me? Gongaga.]
+	text_hash:84.25]
+4: [IntReplaceEncryption struct:
+	pairs_count: 10
+	encrypted_str: [8308 -3119 12814 -10695 -3128 1769 11391 1349 6092 1349 6092 7148 ]
+	decrypted_str: [Me? Gongaga.]
+	text_hash:84.25]
+5: [CycleEncryption struct: 
+	shift: -80
+	encrypted_str: [}oPw^]
+	decrypted_str: [Me? Gongaga.]
+	text_hash:84.25]
+6: [CharReplaceEncryption struct:
+	pairs_count: 17
+	encrypted_str: [q}^vneJ%et@}8eJEd[KH3]
+	decrypted_str: [Your'e welcome (dabs)]
+	text_hash:89.2381]
+7: [IntReplaceEncryption struct:
+	pairs_count: 17
+	encrypted_str: [-9385 -6527 9809 -13524 -10735 -993 7128 -6338 -993 -13403 9746 -6527 8141 -993 7128 -9140 7084 -6035 3721 -6259 688 ]
+	decrypted_str: [Your'e welcome (dabs)]
+	text_hash:89.2381]
+8: [CycleEncryption struct: 
+	shift: -14
+	encrypted_str: [KagdWiW^Ua_WVSTe]
+	decrypted_str: [Your'e welcome (dabs)]
+	text_hash:89.2381]
+9: [CharReplaceEncryption struct:
+	pairs_count: 26
+	encrypted_str: [m VXw6 *XE N4_ m VXw6 *XE N4 rN&G &GU WEw6_ JU{; m WX; m>? lXVVN4n ,Xl N&; m>? lXVVN4n ,Xl N&; uG-lVNU_]
+	decrypted_str: [I lock you in. I lock you in with the duck. Yes, I do, I'm rolling for it, I'm rolling for it, Charlie.]
+	text_hash:84.1845]
+10: [IntReplaceEncryption struct:
+	pairs_count: 26
+	encrypted_str: [-1152 -11694 416 -6466 -462 -7132 -11694 -7678 -6466 13999 -11694 1993 2327 -5782 -11694 -1152 -11694 416 -6466 -462 -7132 -11694 -7678 -6466 13999 -11694 1993 2327 -11694 13012 1993 -7682 6863 -11694 -7682 6863 9405 -11694 -5366 13999 -462 -7132 -5782 -11694 14738 9405 -9016 13982 -11694 -1152 -11694 -5366 -6466 13982 -11694 -1152 -3919 -9651 -11694 -991 -6466 416 416 1993 2327 -10113 -11694 -1184 -6466 -991 -11694 1993 -7682 13982 -11694 -1152 -3919 -9651 -11694 -991 -6466 416 416 1993 2327 -10113 -11694 -1184 -6466 -991 -11694 1993 -7682 13982 -11694 4744 6863 -9380 -991 416 1993 9405 -5782 ]
+	decrypted_str: [I lock you in. I lock you in with the duck. Yes, I do, I'm rolling for it, I'm rolling for it, Charlie.]
+	text_hash:84.1845]
+11: [CycleEncryption struct: 
+	shift: -1
+	encrypted_str: [Hknbjxnthm-Hknbjxnthmvhsgsgdctbj-Xdr+Hcn+H&lqnkkhmfenqhs+H&lqnkkhmfenqhs+Bg`qkhd-]
+	decrypted_str: [I lock you in. I lock you in with the duck. Yes, I do, I'm rolling for it, I'm rolling for it, Charlie.]
+	text_hash:84.1845]
+12: [CharReplaceEncryption struct:
+	pairs_count: 22
+	encrypted_str: [^A B3E 7[yqq B3EU _;ny lU3_x 3_ ;_ ^o cy7c >3y7 B3EU 7e3Uy xyc -_3e-y> >3l_8]
+	decrypted_str: [If you spell your name wrong on an IQ test does your score get knocked down?]
+	text_hash:92.1447]
+13: [IntReplaceEncryption struct:
+	pairs_count: 22
+	encrypted_str: [1455 5826 11821 -4631 4744 4333 11821 5560 2684 103 -6250 -6250 11821 -4631 4744 4333 14751 11821 -10538 8364 9829 103 11821 11922 14751 4744 -10538 7879 11821 4744 -10538 11821 8364 -10538 11821 1455 -8008 11821 4523 103 5560 4523 11821 -5707 4744 103 5560 11821 -4631 4744 4333 14751 11821 5560 -2723 4744 14751 103 11821 7879 103 4523 11821 3907 -10538 4744 -2723 3907 103 -5707 11821 -5707 4744 11922 -10538 -11238 ]
+	decrypted_str: [If you spell your name wrong on an IQ test does your score get knocked down?]
+	text_hash:92.1447]
+14: [CycleEncryption struct: 
+	shift: -5
+	encrypted_str: [Datjpnk`ggtjpmi\h`rmjibji\iDLo`no_j`ntjpmn^jm`b`ofij^f`__jri:]
+	decrypted_str: [If you spell your name wrong on an IQ test does your score get knocked down?]
+	text_hash:92.1447]
+15: [CharReplaceEncryption struct:
+	pairs_count: 17
+	encrypted_str: [%bo%;QLQ5obpprof9XYoUpPYpFU]]
+	decrypted_str: [Ok Obama, keep your secrets!]
+	text_hash:89.8571]
+16: [IntReplaceEncryption struct:
+	pairs_count: 17
+	encrypted_str: [11338 8796 -4518 11338 -9930 -7073 1511 -7073 9034 -4518 8796 9805 9805 3781 -4518 -14607 -4643 12192 8421 -4518 2008 9805 5564 8421 9805 6132 2008 6197 ]
+	decrypted_str: [Ok Obama, keep your secrets!]
+	text_hash:89.8571]
+17: [CycleEncryption struct: 
+	shift: -43
+	encrypted_str: [$@u$76B6u@::EuNDJGuH:8G:IHv]
+	decrypted_str: [Ok Obama, keep your secrets!]
+	text_hash:89.8571]

@@ -1,0 +1,19 @@
+Filled container:
+Container contains 3 elements.
+0: [encryptedText struct:[cycleEncryption struct: 
+	shift: -5
+	encrypted_str: [D_ji"ogdf`ojrmdo`di^&&dioc`^notg`] ]
+decrypted str: [I don't like to write in c++ in the c style]
+text_hash:85.3023]
+1: [encryptedText struct:[cycleEncryption struct: 
+	shift: 10
+	encrypted_str: [s~*s}*lo~~o|*~y*|s~o*sx*m] ]
+decrypted str: [it is better to write in c]
+text_hash:91.3462]
+2: [encryptedText struct:[cycleEncryption struct: 
+	shift: 30
+	encrypted_str: [`>g>
+>
+>>>aII] ]
+decrypted str: [But I already wrlte it in C++]
+text_hash:84.4483]

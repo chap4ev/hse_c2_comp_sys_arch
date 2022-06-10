@@ -1,0 +1,22 @@
+Sorted Container:
+Container contains 4 elements.
+0: [CharReplaceEncryption struct:
+	pairs_count: 17
+	encrypted_str: [7y9gNc6cN93kNX43ANSfN3zNDy3D yg]
+	decrypted_str: [Hey, did you know 6% of people,]
+	text_hash:84.6452]
+1: [CharReplaceEncryption struct:
+	pairs_count: 16
+	encrypted_str: [jv>fgG,g54UlcUt9gZ v]
+	decrypted_str: [Hey! Im building the]
+	text_hash:88.6]
+2: [CharReplaceEncryption struct:
+	pairs_count: 21
+	encrypted_str: [2aaRFsWYSRgmWvv8kgUa9g9WDDgmWvv8gzSVg8glaKg6a9k]
+	decrypted_str: [Wood-fired pizza? How will pizza get a job now?]
+	text_hash:91.234]
+3: [CharReplaceEncryption struct:
+	pairs_count: 5
+	encrypted_str: [4-2fq4-2fq4-2f]
+	decrypted_str: [bruh bruh bruh]
+	text_hash:97.3571]
